@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul class="list-articles">
+	{% for p in data_db %}
+    <h1>{{p.title}}</h1>
+	{{p.content|linebreaks|truncatewords:30}}
+		<div class="clear"></div>
+		<p class="link-read-post"><a href="{% url 'post' p.id %}">Читать пост</a></p>
+		</li>
+	{% endfor %}
+</ul>
+{% endblock %}
