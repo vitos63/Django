@@ -1,4 +1,56 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-
-{% endblock %}
+<main>
+    <section class="about">
+        <h2>О турнире</h2>
+        <p>Развлекательный турнир состоящий из игр на логику. Проводится не каждое воскресенье по разным правилам, которые участники заранее не знают.</p>
+    </section>
+    <section class="leaderboard">
+        <h2>Турнирная таблица</h2>
+        <ul>
+            <li>
+                <div class="rank">№1</div>
+                <div class="participant">
+                    <img src="{% static 'battle/images/alexander.png' %}" alt="Александр">
+                    <span>Александр</span>
+                </div>
+                <div class="points">15 Баллов</div>
+            </li>
+            <li>
+                <div class="rank">№2</div>
+                <div class="participant">
+                    <img src="{% static 'battle/images/ruslan.png' %}" alt="Руслан">
+                    <span>Руслан</span>
+                </div>
+                <div class="points">12 Баллов</div>
+            </li>
+            <li>
+                <div class="rank">№3</div>
+                <div class="participant">
+                    <img src="{% static 'battle/images/viktoria.png' %}" alt="Виктория">
+                    <span>Виктория</span>
+                </div>
+                <div class="points">10 Баллов</div>
+            </li>
+            <li>
+                <div class="rank">№4</div>
+                <div class="participant">
+                    <img src="{% static 'battle/images/alisa.png' %}" alt="Алиса">
+                    <span>Алиса</span>
+                </div>
+                <div class="points">10 Баллов</div>
+            </li>
+            <li>
+                <div class="rank">№5</div>
+                <div class="participant">
+                    <img src="{% static 'battle/images/viktor.png' %}" alt="Виктор">
+                    <span>Виктор</span>
+                </div>
+                <div class="points">9 Баллов</div>
+            </li>
+        </ul>
+    </section>
+</main>
+</div>
+{% endblock content %}

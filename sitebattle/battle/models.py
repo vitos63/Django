@@ -19,7 +19,7 @@ class Members(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return reverse('members', kwargs={'member_slug': self.slug})
+        return reverse('uchastniki')
 
 class Games(models.Model):
     name = models.CharField(max_length=100)
@@ -31,4 +31,4 @@ class Games(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return reverse('rule_games', kwargs={'rule_slug': self.slug})
+        return reverse('games')

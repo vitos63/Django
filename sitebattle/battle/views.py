@@ -7,26 +7,22 @@ def index(request):
     data = {'menu': menu}
     return render(request, 'index.html', context=data)
 
-def show_menu(request,menu_slug):
+def games(request):
     menu = Menu.objects.all()
-    post = get_object_or_404(Menu, slug = menu_slug)
     data = {'menu' : menu,
         'members': Members.objects.all(),
         'games': Games.objects.all(),
-        }
-    if post.slug == 'uchastniki':
-        return render(request, 'members.html', context=data)
-    elif post.slug == 'games':
-        return render(request, 'games.html', context=data)
+                }
+    return render(request, 'games.html', context=data)
 
 
-def member_info(request,member_slug):
+def member_info(request):
     menu = Menu.objects.all()
-    members = get_object_or_404(Members, slug = member_slug)
+    members = Members.objects.all()
     data = {'menu': menu,
             'members': members,
             }
-    return render(request, 'member_info.html', context=data)
+    return render(request, 'members.html', context=data)
 
 def rule_games(request, rule_slug):
     menu = Menu.objects.all()
@@ -35,3 +31,6 @@ def rule_games(request, rule_slug):
             'games': games,
             }
     return render(request, 'rule_games.html', context=data)
+
+def kvest(request):
+    pass
