@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for m in members %}
+<div class="article-panel"></div>
+    <h2>{{m.name}}</h2>
+    <li><a href="{{ m.telegram }}">Тг аккаунт</a></li>
+    <li><a href="{{ m.discord }}">Дискорд аккаунт</a></li>
+    <div class="clear"></div>
+		<p class="link-read-post"><a href="{{ m.get_absolute_url }}">Информация об игроке</a></p>
+
+{% endfor %}
+{% endblock %}

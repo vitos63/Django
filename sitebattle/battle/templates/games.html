@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for g in games %}
+<div class="article-panel"></div>
+    <h2>{{g.name}}</h2>
+    <div class="clear"></div>
+    {{g.content|linebreaks|truncatewords:30}}
+		<p class="link-read-post"><a href="{{ g.get_absolute_url }}">Правила игры</a></p>
+
+{% endfor %}
+{% endblock %}
