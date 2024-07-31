@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{{ games.name }}</h1>
+{{ games.rules|linebreaks }}
+{% endblock %}

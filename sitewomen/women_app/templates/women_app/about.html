@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{title}}</h1>
+{% for p in page %}
+<p>{{ p.title }}</p>
+<p>{{ p.content }}</p>
+{% endfor %}
+<nav>
+    <ul>
+        {% for p in page.paginator.page_range %}
+        <li>
+            <a href="?page={{ p }}"> {{ p }} </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endblock %}

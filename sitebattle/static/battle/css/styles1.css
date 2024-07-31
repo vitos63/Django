@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./fonts/custom-font.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    background: url('../images/chalkboard.jpg') no-repeat center center;
+    background-attachment: fixed;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    width: 95%;
+    height: 90%;
+    display: fixed;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(44, 62, 80, 0.9);
+    width: 105%;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    padding: 10px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.about,
+.leaderboard {
+    background: rgba(44, 62, 80, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 28px;
+    height: 90%;
+    /* Удалите, если ранее было установлено */
+    min-height: 100px;
+    /* Устанавливаем минимальную высоту, чтобы фон растягивался вниз */
+}
+
+.leaderboard {
+    font-size: 28px;
+}
+
+.about h2,
+.leaderboard h2 {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.leaderboard ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.leaderboard li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rank {
+    width: 70px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.participant {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.participant img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.points {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.bg-1 {
+    background: rgba(12, 89, 48, 0.942);
+}
+
+table {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 90px 0px;
+  }
+
+.text {
+    width: 70px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}

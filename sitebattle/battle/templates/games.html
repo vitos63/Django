@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block content %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Картинки в ряд с подписями</title>
+  <style>
+      .image-row {
+          display: flex;
+          justify-content: space-around; /* Распределяет картинки с равными промежутками */
+          align-items: center; /* Выравнивает картинки по центру */
+          margin: 30px 0; /* Отступы сверху и снизу */
+      }
+      .image-container {
+          text-align: center; /* Центрирует текст под картинкой */
+      }
+      .image-container img {
+          max-width: 300px; /* Ограничивает ширину картинок */
+      }
+      
+  </style>
+</head>
+<body>
+  <div class="image-row">
+      <div class="image-container">
+        <a href="https://yandex.ru/games/app/335859"><img src="/media/photos/2024/07/23/Шпион.png" alt="Шпион" width="150">
+          <nav><h2><a href="https://yandex.ru/games/app/335859">Шпион</a></h2></nav>
+      </div>
+      <div class="image-container">
+        <a href="https://vk.com/video-214484275_456239694"><img src="/media/photos/2024/07/23/lock_stock.png" alt="Lock & Stock">
+          <nav><h2><a href="https://vk.com/video-214484275_456239694">Lock & Stock</a></h2></nav>
+      </div>
+      <div class="image-container">
+        <a href="https://vk.com/wall-161713881_39280?z=video-161713881_456239787%2F627575a2095837170a%2Fpl_post_-161713881_39280"><img src="/media/photos/2024/07/23/подстава.jpg" alt="Подстава" width="200">
+        <nav><h2><a href="https://vk.com/wall-161713881_39280?z=video-161713881_456239787%2F627575a2095837170a%2Fpl_post_-161713881_39280">Подстава</a></h2></nav>
+      </div>
+      <div class="image-container">
+        <a href="https://vk.com/video-127553155_456241762"><img src="/media/photos/2024/07/23/это_логично.jpg" alt="Это логично" width="200">
+      <nav><h2><a href="https://vk.com/video-127553155_456241762">Это логично</a></h2></nav>
+    </div>
+  </div>
+  <div class="image-row" align-items="left">
+    <div class="image-container">
+      <a href="https://vk.com/video-165221845_456239124"><img src="/media/photos/2024/07/23/что_где.png" alt="Что? Где? Говно" width="200">
+      <nav><h2><a href="https://vk.com/video-165221845_456239124">Что? Где? Говно</a></h2></nav>
+    </div>
+    <div class="image-container">
+      <a href="https://bunker-online.com/"><img src="/media/photos/2024/07/23/бункер.png" alt="Бункер" width="150">
+      <nav><h2><a href="https://bunker-online.com/">Бункер</a></h2></nav>
+  </div>
+  <div class="image-container">
+    <img  width="2000">
+    <h2></h2>
+</div>
+<div class="image-container">
+  <img  alt="" width="2000">
+  <h2></h2>
+</div>
+</div>
+</body>
+</html>
+{% endblock %}

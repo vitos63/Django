@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 align="center">Список участников</h1>
+
+<table >
+  <tr>
+  {% for m in members %}
+  <td class="bg-1"><img src="{{ m.photo.url }}" width="200"></td>
+  {% endfor %}
+  </tr>
+
+  <tr>
+  {% for m in members %}
+  <td><h2>{{ m.name }}</h2></td>
+  {% endfor %}
+  </tr>
+
+  <tr>
+    {% for m in members %}
+    <td><h2><img src="/media/crown.png" width="50"> - {{ m.wins }}</h2></td>
+    {% endfor %}
+    </tr>
+  <tr>
+    {% for m in members %}
+    <td><h2><img src="/media/clown.png" width="50"> - {{ m.loses }}</h2></td>
+    {% endfor %}
+    </tr>
+</table>
+{% endblock %}

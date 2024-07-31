@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",   
+    "configurations": [
+        {
+            "name": "sitewomen",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceRoot}/sitewomen/manage.py",
+            "args": [
+                "runserver",
+                "--no-color",
+                "--noreload"
+            ],
+            "redirectOutput": true,
+        }
+    ]
+}

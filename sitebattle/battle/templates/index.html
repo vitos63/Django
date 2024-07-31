@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<main>
+    <section class="about">
+        <h2>О турнире</h2>
+        <p>Развлекательный турнир состоящий из игр на логику. Проводится не каждое воскресенье по разным правилам, которые участники заранее не знают.</p>
+    </section>
+    <section class="leaderboard">
+        <h2>Турнирная таблица</h2>
+        <ul>
+            {% for m in members %}
+            <ol type="1">
+            <li>
+                <div class="rank">№{{ forloop.counter }}</div>
+                <div class="participant">
+                    <img src="{{ m.photo.url }}" alt="{{ m.name }}">
+                    <span>{{ m.name }}</span>
+                </div>
+                <div class="points">{{m.points}}</div>
+            </li>
+            </ol>
+            {% endfor %}
+        </ul>
+    </section>
+</main>
+</div>
+{% endblock content %}
