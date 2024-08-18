@@ -1,14 +1,18 @@
+
 {% extends 'base.html' %}
 {% block content %}
-<form action="" method="POST" enctype="multipart/form-data">
-    {% csrf_token %}
+<div>
+<form class="player-block" method="POST" enctype="multipart/form-data">
+{% csrf_token %}
 <div> {{ form.non_field_errors }}</div>
 
 {% for f in form %}
-<p><label for = "{{ f.id_for_label }}"> {{ f.label }}</label>{{ f }}</p>
+<h2>Игрок №{{ forloop.counter }}</h2>
+<label for = "{{ f.id_for_label }}"> {{ f.label }}</label>{{ f }}
 <div> {{ f.errors }}</div>
 {% endfor %}
 
 <p><button>Отправить </button></p>
 </form>
+</div>
 {% endblock %}

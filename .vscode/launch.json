@@ -6,7 +6,7 @@
             "type": "debugpy",
             "request": "launch",
             "stopOnEntry": false,
-            "program": "${workspaceRoot}/sitewomen/manage.py",
+            "program": "${workspaceRoot}/bunker/manage.py",
             "args": [
                 "runserver",
                 "--no-color",
