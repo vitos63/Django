@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="player-block">Выжили:</h2>
+{% for f in members_alive %}
+    <h2 class="player-block">{{f.name}}</h2>
+{% endfor %}
+<h2 class="player-block">Погибли:</h2>
+{% for f in members_dead %}
+    <h2 class="player-block"> {{f.name}}</h2>
+{% endfor %}
+<h2 class="player-block">{{breeding_points}} очков размножения</h2>
+<h2 class="player-block">{{survival_points}} очков выживания</h2>
+{% endblock %}

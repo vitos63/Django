@@ -1,0 +1,4 @@
+djvenv/
+bunker/db.sqlite3
+sitebattle/db.sqlite3
+sitewomen/db.sqlite3
