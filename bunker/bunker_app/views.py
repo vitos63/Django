@@ -29,5 +29,14 @@ def calculation(request):
     breeding_points, survival_points = total_score(members)
     breeding_points /= members.all().count()
     survival_points /= members.all().count()
-    return render(request, 'bunker_app/calculation.html', {'breeding_points' : breeding_points, 'survival_points' : survival_points, 'members_alive':members.filter(alive=True), 'members_dead':members.filter(alive=False)})
+    return render(request, 'bunker_app/calculation.html', {'breeding_points' : breeding_points, 
+    'survival_points' : survival_points, 
+    'members_alive':members.filter(alive=True), 
+    'members_dead':members.filter(alive=False)})
+
+def clean_database(request):
+    MemberCharact.objects.all().delete()
+    return redirect(reverse('home'))
+
+
 
