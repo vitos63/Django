@@ -4,12 +4,12 @@
 	{% for p in posts %}
 	<li>
 		<div class="article-panel">
-			<p class="first">Категория: {{p.cat}}</p>
+			<p class="first">Категория: {{p.cat}} | Автор: {{ p.author.username|default:'Неизвестный автор' }}</p>
 			<p class="last">Дата: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
 		</div>
-{% if p.photo %}
-	<p><img class="img-article-left thumb" src="{{ p.photo.url }}" alt="{{ p.title }}"></p>
-{% endif %}
+		{% if p.photo %}
+		<p><img class="img-article-left thumb" src="{{ p.photo.url }}" alt="{{ p.title }}"></p>
+		{% endif %}
 		<h2>{{p.title}}</h2>
 		{{p.content|linebreaks|truncatewords:30}}
 		<div class="clear"></div>
@@ -20,19 +20,19 @@
 {% endblock %}
 
 {% block navigation %}
-	{% if page_obj.has_other_pages %}
-	<nav class="list-pages">
-		<ul>
+{% if page_obj.has_other_pages %}
+<nav class="list-pages">
+	<ul>
 		{% for p in page_range %}
-			{% if p == page_obj.number %}
-			<li class="page-num page-num-selected">{{p}}</li>
-			{% else %}
-			<li class="page-num">
-				<a href="?page={{ p }}">{{ p }}</a>
-				</li>
-			{% endif %}
+		{% if p == page_obj.number %}
+		<li class="page-num page-num-selected">{{p}}</li>
+		{% else %}
+		<li class="page-num">
+			<a href="?page={{ p }}">{{ p }}</a>
+		</li>
+		{% endif %}
 		{% endfor %}
-		</ul>
-	</nav>
-	{% endif %}
+	</ul>
+</nav>
+{% endif %}
 {% endblock %}

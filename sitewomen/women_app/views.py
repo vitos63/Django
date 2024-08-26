@@ -1,5 +1,6 @@
 from typing import Any
 from django.core.paginator import Paginator
+from django.forms import BaseModelForm
 from .utils import DataMixin
 from django.db.models.base import Model as Model
 from django.db.models.query import QuerySet
@@ -11,6 +12,8 @@ from .models import Women, Category, TagPost
 from .forms import AddPostForm, UploadFileForm
 from django.views.generic import DetailView, ListView, CreateView
 from django.urls import reverse_lazy
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 
 menu = [{'title': 'О сайте', 'url_name': 'about'},
@@ -37,7 +40,7 @@ def handle_uploaded_file(file):
         for chunk in file.chunks():
             des.write(chunk)
 
-
+@login_required()
 def about(request):
     post = Women.published.all()
     paginator = Paginator(post, 3)
@@ -64,11 +67,16 @@ class ShowPost(DataMixin,DetailView):
         context['title'] = context['post'].title
         return context
 
-class AddPage(DataMixin, CreateView):
+class AddPage(LoginRequiredMixin, DataMixin, CreateView):
     form_class = AddPostForm
     success_url = reverse_lazy('home')
     template_name = 'women_app/addpage.html'
     title_page = 'Добавление статьи'
+
+    def form_valid(self, form):
+        w = form.save(commit=False)
+        w.author = self.request.user
+        return super().form_valid(form)
 
 
 def login(request):

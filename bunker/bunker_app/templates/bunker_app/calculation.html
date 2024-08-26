@@ -1,16 +1,24 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2 class="player-block">Выжили:</h2>
-{% for f in members_alive %}
-    <h2 class="player-block">{{f.name}}</h2>
-{% endfor %}
-<h2 class="player-block">Погибли:</h2>
-{% for f in members_dead %}
-    <h2 class="player-block"> {{f.name}}</h2>
-{% endfor %}
-<h2 class="player-block">{{breeding_points}} очков размножения</h2>
-<h2 class="player-block">{{survival_points}} очков выживания</h2>
-
-<p><a href="/clear/" class="btn">Новый рассчет</a></p>
+<div class="log-container">
+    {% for i in logs %}
+    <p>{{ i }}</p>
+    {% endfor %}
+    <h2 class="player-block">Выжили:</h2>
+    {% for f in members_alive %}
+    <p class="player-block">{{f.name}}</p>
+    {% endfor %}
+    <h2 class="player-block">Погибли:</h2>
+    {% for f in members_dead %}
+    <p class="player-block"> {{f.name}}</p>
+    {% endfor %}
+    <p>{{survival_points}} очков выживания</p>
+    <p>{{breeding_points}} очков размножения</p>
+    {%if chance %}
+    <p>{{ chance }}</p>
+    {% endif %}
+    <p>{{ bunker_alive }}</p>
+</div>
+<p><a href="{% url 'home' %}" class="btn">Новый рассчет</a></p>
 {% endblock %}

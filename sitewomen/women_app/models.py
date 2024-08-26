@@ -2,6 +2,7 @@ from typing import Iterable
 from django.db import models
 from django.urls import reverse
 from pytils.translit import slugify
+from django.contrib.auth import get_user_model
 from uuid import uuid4
 
 class PublishedManager(models.Manager):
@@ -24,6 +25,7 @@ class Women(models.Model):
     husband = models.OneToOneField('Husband', on_delete=models.SET_NULL, related_name='wuman', null=True)
     published = PublishedManager()
     objects = models.Manager()
+    author = models.ForeignKey(get_user_model(), null=True, default=None, on_delete=models.SET_NULL, related_name='posts', verbose_name='Автор')
 
     def __str__(self) -> str:
         return self.title
