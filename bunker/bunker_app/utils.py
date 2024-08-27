@@ -221,3 +221,18 @@ def total_score(members, logs, disaster):
 
 
 
+def reproduction(members, breeding_points):
+    chance_breed = 'Шанс размножения после выхода из бункера 0 %'
+    bunker_breed = 'Бункер не размножился'
+    members_count = members.filter(alive=True).count() 
+    if members_count>1 and members.filter(sex='Man').exists() and members.filter(sex='Woman').exists():
+        if members_count%2==0:
+            perfect_breed = 25*members_count//2
+            chance_breed = (f'Шанс размножения после выхода из бункера {round(breeding_points/(perfect_breed/100),1)}%')
+        else:
+            perfect_breed = 10*members_count//2 + 15*(members_count//2 + 1)
+            chance_breed = (f'Шанс размножения после выхода из бункера {round(breeding_points/(perfect_breed/100),1)}%')
+        if randint(1,perfect_breed)<breeding_points:
+            bunker_breed = 'Бункер размножился'
+    return chance_breed, bunker_breed
+

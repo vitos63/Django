@@ -4,7 +4,7 @@ from django.views.generic import  CreateView
 from .forms import FormMember, MembersCount
 from django.urls import reverse_lazy,reverse
 from .models import MemberCharact, Disasters
-from .utils import total_score
+from .utils import total_score, reproduction
 from django.forms import formset_factory
 from random import randint
 
@@ -47,19 +47,21 @@ def calculation(request, disaster):
     breeding_points, survival_points, logs = total_score(members, logs, disaster)
     breeding_points /= members.all().count()
     survival_points /= members.all().count()
-    chance = ''
     bunker_alive = 'Бункер не выжил'
     if members.filter(alive=True).exists():
-        chance = (f'Шанс выживания игроков в бункере {round(survival_points/(55/100),1)}%')
+        chance_survive = (f'Шанс выживания игроков в бункере {round(survival_points/(55/100),1)}%')
         if randint(1,55)<survival_points:
             bunker_alive = 'Бункер выжил'
+    chance_breed, bunker_breed = reproduction(members, breeding_points)
     return render(request, 'bunker_app/calculation.html', {'breeding_points' : breeding_points, 
     'survival_points' : survival_points, 
     'members_alive':members.filter(alive=True), 
     'members_dead':members.filter(alive=False),
     'logs':logs,
-    'chance': chance,
-    'bunker_alive':bunker_alive
+    'chance_survive': chance_survive,
+    'bunker_alive':bunker_alive,
+    'chance_breed':chance_breed,
+    'bunker_breed' :bunker_breed,
     })
 
 

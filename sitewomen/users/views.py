@@ -14,7 +14,7 @@ from django.contrib.auth import get_user_model
 class LoginUser(LoginView):
     template_name = 'users/user_forms.html'
     form_class = LoginUserForm
-    extra_context={'title': 'Авторизация', 'button':'Войти'}
+    extra_context={'title': 'Авторизация', 'button':'Войти', 'links':{'Забыли пароль?':'users:password_reset'}}
 
 
 class RegisterUser(CreateView):

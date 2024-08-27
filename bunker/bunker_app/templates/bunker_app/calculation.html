@@ -15,10 +15,10 @@
     {% endfor %}
     <p>{{survival_points}} очков выживания</p>
     <p>{{breeding_points}} очков размножения</p>
-    {%if chance %}
-    <p>{{ chance }}</p>
-    {% endif %}
+    <p>{{ chance_survive }}</p>
     <p>{{ bunker_alive }}</p>
+    <p>{{ chance_breed }}</p>
+    <p>{{ bunker_breed }}</p>
 </div>
 <p><a href="{% url 'home' %}" class="btn">Новый рассчет</a></p>
 {% endblock %}
