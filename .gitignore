@@ -1,3 +1,6 @@
 djvenv/
 .env
 .vscode/
+sitewomen/db.json
+sitewomen/db.sqlite3
+
