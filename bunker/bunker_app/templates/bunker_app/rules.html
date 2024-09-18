@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="navigation-container">
+        <ul>
+            
+        {% for rule in rules %}
+            <li><a href="#section-{{ rule.name }}">{{ rule.name }}</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+
+
+    <div class="info-container" id="section-{{ rule.name }}">
+        <h1 id="unique-paragraph">Правила игры</h1>
+        {% for rule in rules %}
+            <div id="section-{{ rule.name }}">
+                <h1 id="unique-paragraph">{{ rule.name }}</h1>
+                {% if rule.info %}
+                    <p> {{ rule.info|safe|linebreaks}}</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    
+{% endblock %}
+
+
+

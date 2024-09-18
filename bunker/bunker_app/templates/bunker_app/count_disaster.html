@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <form class="log-container" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div> {{ form.non_field_errors }}</div>
+
+        <h1 for="{{ form.id_for_label }}"> {{ form.label }}</h1>{{ form }}
+        <div> {{ f.errors }}</div>
+        <p><button>Отправить </button></p>
+    </form>
+</div>
+{% endblock %}

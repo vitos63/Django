@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% if default_image %}
+    {% if user.photo %}
+    <p><img src="{{ users.photo.url }}"></p>
+    {% else %}
+    <p><img src="{{ default_image }}"></p>
+    {% endif %}
+    {% endif %}
+    <div class="form-error"> {{ form.non_field_errors }}</div>
+    {% for f in form %}
+    <p><label class="form-label" for="{{ f.id_for_label }}"> {{ f.label }}</label>{{ f }}</p>
+    <div class="form-error"> {{ f.errors }}</div>
+    {% endfor %}
+    <p><button type="submit">{{ button }} </button></p>
+</form>
+{% for tit,link in links.items %}
+<p><a href="{% url link %}">{{ tit }}</a></p>
+{% endfor %}
+<hr>
+<p><a href="{% url 'social:begin' 'github' %}"><img src="/media/social-auth/github.png" width="100"></a></p>
+
+{% endblock %}

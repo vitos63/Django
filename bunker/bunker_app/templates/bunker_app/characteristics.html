@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="navigation-container">
+        <ul>
+            
+        {% for char in characteristics %}
+            <li><a href="#section-{{ char.characteristic }}">{{ char.characteristic }}</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+
+
+    <div class="info-container" id="section-{{ rule.info }}">
+        <h1 id="unique-paragraph">Описание характеристик</h1>
+        {% for char in characteristics %}
+            <div id="section-{{ char.characteristic }}">
+                <h1 id="unique-paragraph">{{ char.characteristic }}</h1>
+                {% if char.image %}
+                <img class="characteristic-image" src="{{char.image.url}}">
+            {% endif %}   
+                <p">{{ char.description|safe|linebreaks }}</p>
+                <div class="clear-both"></div>
+            </div>
+        {% endfor %}
+    
+{% endblock %}
+

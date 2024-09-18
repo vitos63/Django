@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="main-container">
+<h1>{{feedback.name}}<h1>
+    <h2>{{feedback.info}}</h2>
+</div>
+<div class="image-container">
+    <div class="image-row">
+        <div class="image-box">
+            <a href="https://t.me/vitos_63" target="_blank"><img src="{% static 'bunker/telegram.png'%}" height="150" width="150" alt="Telegram">
+            </a>
+            <h2> Телеграм</h2>
+        </div>
+        <div class="image-box">
+            <a href="https://vitya.bashkov64@gmail.com" target="_blank"><img src="{% static 'bunker/gmail.png'%}" height="150" width="180" alt="Gmail"> </a>
+            <h2> Электронная почта</h2>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

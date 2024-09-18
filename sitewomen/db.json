@@ -1,0 +1,1864 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "women_app",
+    "model": "women"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "women_app",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "women_app",
+    "model": "tagpost"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "women_app",
+    "model": "husband"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "social_django",
+    "model": "association"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "social_django",
+    "model": "code"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "social_django",
+    "model": "nonce"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "social_django",
+    "model": "usersocialauth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "social_django",
+    "model": "partial"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "b70w519774ceoqeresl39x8hltzreszs",
+  "fields": {
+    "session_data": ".eJxVjrkOwjAQRP_FNYrMJs5BRwWIgkMUUFm7zjqOCAnCjpBA_DvhKKAaaUZvZu6iqoPrSfuAgcVEHNa7DblFs9yuqqNU8iRn0F7bZb6_qbm7ncVIaOyD073ni67LAUn-PUJz5PYV-M7U2GjTXTj6uj767EWzt6ymAwb_vEPvBpgowwxsIqHIx6VKyjQGi4VKLVqQWORW0ThDMMwZMWABcUxIxgDnklMcSr_77-oGfdBNV9Xtz8HPF_F4AserWKQ:1sl8Kj:BCzu5Y6oG3mQ1baZTFVQkNvpL3k9B-ixt14wZjgZjeM",
+    "expire_date": "2024-09-16T14:47:09.697Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iorp9qbnhexamje00aoliij02f18uc79",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDpUAou3XsGMjMMtmogKe3KeHdD0oVu_3vvv1XEfZvj3mSNS1IXZdTpdyPkp5QO0gPLvWquZVsX0l3RB236VpO8rof7dzBjm3tNBphkQgoAgGMw6DM6RhgJBiOBGV1gMhZ9ovPgrTjMkww2g82B1ecLCpc45Q:1shrP6:54pX6bRm4m_6VSb0PNpD1RSXVH7eCxDT9POfdHniyZ8",
+    "expire_date": "2024-09-07T14:06:08.166Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ko6fgonbzt5cbi3h97ly4ehd7js4wrxf",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnrT8yakj5niOzdNQ6gRIqTCnF3iJQC2jcz76WGtK112Josw8jqoow6_W450UOmHfA9TbdZ0zyty5j1ruiDNt3PLM_r4f4d1NTqtyYHiF2AUhhNR44YUIrxETsqQNFRttmlQMGCmGihwNlLdijsY2BQ7w_hbTfR:1sUJV0:G9TQJZD-xuRdBA6_fNxOu6lH2C7tequ2lZsAZFKjAgg",
+    "expire_date": "2024-08-01T05:16:14.735Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ocbj3bq4pwpvztnrsluk0zuder6k1373",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlls_IlDSZ8zWLvZNQ4gW4qTCnF3iJQC2jcz76UibmuOW5MlzqwuyqjT70Y4PaTsgO9YblVPtazLTHpX9EGbHivL83q4fwcZW_7W3kogJGAS8OCSZfHBsJBNveCZsQMQax0nCF4GChwcI5Ifuh4TG_X-ABFpOSU:1sir3q:oR9M5eZQLfuM3o-gh7FgV--Trq36HoWvqch_DoAXqr8",
+    "expire_date": "2024-09-10T07:56:18.667Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "omvqq9g1zmffvwknxlwergmcjihqj9xs",
+  "fields": {
+    "session_data": ".eJxVjrkOwjAQRP_FNYrMJs5BRwWIgkMUUFm7zjqOCAnCjpBA_DvhKKAaaUZvZu6iqoPrSfuAgcVEHNa7DblFs9yuqqNU8iRn0F7bZb6_qbm7ncVIaOyD073ni67LAUn-PUJz5PYV-M7U2GjTXTj6uj767EWzt6ymAwb_vEPvBpgowwxsIqHIx6VKyjQGi4VKLVqQWORW0ThDMMwZMWABcUxIxgDnklMcSr_77-oGfdBNV9Xtz8HPF_F4AserWKQ:1sl8Kj:BCzu5Y6oG3mQ1baZTFVQkNvpL3k9B-ixt14wZjgZjeM",
+    "expire_date": "2024-09-16T14:47:09.511Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "unlbpd77nspp8yu5qjwmxgy0komoj8mz",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RDYAgWP3n0D2YWtVA1NSnsy_l1JetDrzGReIuK-lbg3XuOcxVlocfplhOnBtYt8x3pbZFrqts4keyIP2-R1yfy8HO3foGArfctGIZPWGBicH4yjoIinhINhP7pkfbDG6W8CARQFghFsNpl5AmAt3h_gdTfL:1shVJy:GJwMeIY5gnkXbzt8QDLhaH8RtDo6e2JtnMvpSkbAbGc",
+    "expire_date": "2024-09-06T14:31:22.670Z"
+  }
+},
+{
+  "model": "women_app.category",
+  "pk": 1,
+  "fields": {
+    "name": "Актрисы",
+    "slug": "aktrisy"
+  }
+},
+{
+  "model": "women_app.category",
+  "pk": 2,
+  "fields": {
+    "name": "Певицы",
+    "slug": "pevitsy"
+  }
+},
+{
+  "model": "women_app.category",
+  "pk": 3,
+  "fields": {
+    "name": "Спортсменки",
+    "slug": "sportsmenki"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 1,
+  "fields": {
+    "tag": "Блондинки",
+    "slug": "blonde"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 2,
+  "fields": {
+    "tag": "Брюнетки",
+    "slug": "brunetky"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 3,
+  "fields": {
+    "tag": "Оскар",
+    "slug": "oskar"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 4,
+  "fields": {
+    "tag": "Олимпиада",
+    "slug": "olimpiada"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 5,
+  "fields": {
+    "tag": "Высокие",
+    "slug": "visokie"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 6,
+  "fields": {
+    "tag": "Средние",
+    "slug": "srednie"
+  }
+},
+{
+  "model": "women_app.tagpost",
+  "pk": 7,
+  "fields": {
+    "tag": "Низкие",
+    "slug": "niskie"
+  }
+},
+{
+  "model": "women_app.husband",
+  "pk": 1,
+  "fields": {
+    "name": "Брэд Питт",
+    "age": 59
+  }
+},
+{
+  "model": "women_app.husband",
+  "pk": 2,
+  "fields": {
+    "name": "Том Акерли",
+    "age": 31
+  }
+},
+{
+  "model": "women_app.husband",
+  "pk": 3,
+  "fields": {
+    "name": "Дэниэл Модер",
+    "age": null
+  }
+},
+{
+  "model": "women_app.husband",
+  "pk": 4,
+  "fields": {
+    "name": "Кук Марони",
+    "age": null
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add women",
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "codename": "add_women"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change women",
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "codename": "change_women"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete women",
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "codename": "delete_women"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view women",
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "codename": "view_women"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add category",
+    "content_type": [
+      "women_app",
+      "category"
+    ],
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change category",
+    "content_type": [
+      "women_app",
+      "category"
+    ],
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": [
+      "women_app",
+      "category"
+    ],
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view category",
+    "content_type": [
+      "women_app",
+      "category"
+    ],
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag post",
+    "content_type": [
+      "women_app",
+      "tagpost"
+    ],
+    "codename": "add_tagpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag post",
+    "content_type": [
+      "women_app",
+      "tagpost"
+    ],
+    "codename": "change_tagpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag post",
+    "content_type": [
+      "women_app",
+      "tagpost"
+    ],
+    "codename": "delete_tagpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag post",
+    "content_type": [
+      "women_app",
+      "tagpost"
+    ],
+    "codename": "view_tagpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add husband",
+    "content_type": [
+      "women_app",
+      "husband"
+    ],
+    "codename": "add_husband"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change husband",
+    "content_type": [
+      "women_app",
+      "husband"
+    ],
+    "codename": "change_husband"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete husband",
+    "content_type": [
+      "women_app",
+      "husband"
+    ],
+    "codename": "delete_husband"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view husband",
+    "content_type": [
+      "women_app",
+      "husband"
+    ],
+    "codename": "view_husband"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "add_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "change_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "delete_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "view_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "add_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "change_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "delete_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "view_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "add_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "change_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "delete_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "view_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "add_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "change_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "delete_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "view_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "add_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "change_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "delete_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "view_partial"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$xIYt75QveJaRkgcV7jBVAF$wAQZ3TLPrQISd1K8bBZ5wx3NNqY6wAd4R16uuQYJwL0=",
+    "last_login": "2024-08-24T14:00:51.782Z",
+    "is_superuser": true,
+    "username": "vitya",
+    "first_name": "Виктор",
+    "last_name": "Башков",
+    "email": "vitya.bashkov@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-18T05:15:30.581Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$1FEt6sD5PR8ZIdITngQ8st$jehPXScOQ/eptZbQxxdd0nsle/e+ro9Gy9gCOMheWUU=",
+    "last_login": "2024-08-27T07:56:18.592Z",
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "Витя",
+    "last_name": "Башков",
+    "email": "user1@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-08-22T19:59:12.121Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "!tuJGwpKevfoxoHZeRM4MvU125J8FdP2FjStGzAmd",
+    "last_login": "2024-09-02T14:47:09.673Z",
+    "is_superuser": false,
+    "username": "vitos63",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-09-02T14:47:09.437Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "social_django.usersocialauth",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "vitos63"
+    ],
+    "provider": "github",
+    "uid": "158137246",
+    "extra_data": {
+      "auth_time": 1725288429,
+      "id": 158137246,
+      "expires": null,
+      "login": "vitos63",
+      "access_token": "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",
+      "token_type": "bearer"
+    },
+    "created": "2024-09-02T14:47:09.449Z",
+    "modified": "2024-09-02T14:47:09.660Z"
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 1,
+  "fields": {
+    "title": "Анжелина Джоли",
+    "content": "Анджелина Джоли (англ. Angelina Jolie[7], при рождении Войт (англ. Voight), ранее Джоли Питт (англ. Jolie Pitt); род. 4 июня 1975, Лос-Анджелес, Калифорния, США) — американская актриса кино, телевидения и озвучивания, кинорежиссёр, сценаристка, продюсер, фотомодель, посол доброй воли ООН.\r\n\r\nОбладательница премии «Оскар», трёх премий «Золотой глобус» (первая актриса в истории, три года подряд выигравшая премию) и двух «Премий Гильдии киноактёров США».\r\n\r\nДебютировала в кино в 1982 году, сыграв роль в комедийном фильме «В поисках выхода» (где снимались также её отец и мать)[8], однако известность получила после того, как сыграла героиню видеоигр Лару Крофт в фильмах «Лара Крофт: Расхитительница гробниц» и «Лара Крофт: Расхитительница гробниц 2 — Колыбель жизни».\r\n\r\nВ 2009, 2011 и 2013 годах по версии журнала Forbes Джоли была названа самой высокооплачиваемой актрисой Голливуда[9][10].\r\n\r\nЕё наиболее успешными с коммерческой стороны фильмами стали «Малефисента» (сборы в мировом прокате — 758 миллионов долларов США), «Мистер и миссис Смит» (сборы в мировом прокате — 478 миллионов долларов США), «Особо опасен» (341 миллион долларов США), «Солт» (293 миллиона долларов США), а также «Турист» (278 миллионов долларов США), «Лара Крофт: Расхитительница гробниц» (274 миллиона долларов США) и картина с участием Николаса Кейджа «Угнать за 60 секунд» (237 миллионов долларов США).",
+    "time_create": "2024-06-05T12:04:45.376Z",
+    "time_update": "2024-07-27T07:46:36.124Z",
+    "photo": "photos/2024/07/27/images_uPxgflL.jfif",
+    "is_published": true,
+    "slug": "andzhelina-dzholi",
+    "cat": 1,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 2,
+  "fields": {
+    "title": "Марго Робби",
+    "content": "Марго Элис Робби родилась 2 июля 1990 года в городе Дэлби, штат Квинсленд, Австралия[3]. Она третья из четырёх детей фермера Майка Робби и физиотерапевта Сари Кесслер[4][5]. Детство Марго провела в Голд-Косте на ферме дедушки и бабушки, и в доме родителей в Саутпорте[3]. У неё есть старший брат Лахлен, младший брат Кэмерон и старшая сестра Аня[6][7]. В 2007 году Марго окончила колледж Саммерсет в родном городе[8], а затем в 17 лет переехала в Мельбурн, где начала актёрскую карьеру[9].\r\n\r\nМарго начала свою актёрскую карьеру в 2007 году, снявшись в фильмах «Я вижу тебя» (вышел в 2009 году) и «Виджиланте» (вышел в 2008 году)[10]. Затем она появилась в эпизоде австралийского детективного сериала «Отдел убийств», а также двух эпизодах сериала «Принцесса слонов». В июне 2008 года присоединилась к сериалу «Соседи», в котором снималась до января 2011 года[11][12]. За роль Донны Фридмен в нём она дважды (в 2009 и 2011 году) была номинирована на премию «Logie Awards»[13][14].\r\n\r\nМарго на вручении премии Logie Awards 2011. После переезда в Лос-Анджелес, Марго получила одну из главных ролей в сериале «Пан Американ»[15], в котором снималась в течение одного сезона с 2011 по 2012 год[16][17]. В 2013 году она снялась в фильмах «Бойфренд из будущего» и «Волк с Уолл-стрит»[18]. За роль в последнем Марго получила премию «Империя» в категории «Лучший женский дебют»[19], а также была номинирована ещё на несколько премий.Перейти к разделу «#Награды и номинации»\r\n\r\nВ 2014 году она снялась в фильме «Французская сюита»[20]. В 2015 году Робби сыграла в фильмах «Z — значит Захария»[21], «Фокус»[22], а также появилась камео в фильме «Игра на понижение»[23]. В том же году она была номинирована на премию BAFTA в категории «Восходящая звезда»[24]. В 2016 году вышли три фильма с участием Марго — «Тарзан. Легенда»[25], «Репортёрша»[26] и «Отряд самоубийц», в котором она сыграла роль Харли Квинн[27]. В 2017 году вышли два новых фильма с участием Робби — «Прощай, Кристофер Робин»[28] и «Тоня против всех», в котором Марго сыграла американскую фигуристку Тоню Хардинг[29].\r\n\r\nВошла в число ста наиболее влиятельных людей 2017 года по версии журнала Time[30][31].\r\n\r\nВ 2018 году Марго появилась в фильмах «Кролик Питер»[32], «Конченая»[33] и «Две королевы»[34].\r\n\r\nВ 2019 году состоялись релизы трёх фильмов с её участием — «Страна грёз»[35], «Однажды в… Голливуде»[36] и «Скандал»[37].\r\n\r\nВ 2020 году вышел фильм «Хищные птицы. Потрясающая история Харли Квинн», в котором Марго вернулась к роли Харли Квинн.\r\n\r\nВ 2021 году выйдёт фильм «Кролик Питер 2», в котором Марго снова озвучит Флопси[38].\r\n\r\nВ мае 2016 года Робби стала лицом аромата Calvin Klein Deep Euphoria[39].\r\n\r\nВ 2017 году Марго снялась в рекламе электромобилей Nissan[40].\r\n\r\nВ феврале 2018 года Робби стала послом бренда Chanel[41]. Она стала последним послом бренда, выбранным Карлом Лагерфельдом перед его смертью в феврале 2019 года. Позже Марго стала лицом компании Gabrielle Chanel Essence[42].\r\n\r\nВ январе 2020 года перед церемонией вручения премии «Золотой глобус» Марго в своём Instagram-аккаунте призвала людей пожертвовать деньги в помощь пожарным и жертвам лесных пожаров в Австралии[43].\r\n\r\nПосле переезда из Австралии в США, несколько лет жила в Нью-Йорке[44]. Позже переехала в Лондон, где на съёмках фильма «Французская сюита» познакомилась с ассистентом режиссёра Томом Акерли[45][46]. В декабре 2016 года Робби и Акерли поженились после трёх лет отношений[47]. В апреле 2017 года стало известно, что пара строит планы по рождению первенца[48][49][50][51].",
+    "time_create": "2024-06-05T12:10:49.708Z",
+    "time_update": "2024-07-27T07:46:08.804Z",
+    "photo": "photos/2024/07/27/images_7UkHCN7.jfif",
+    "is_published": true,
+    "slug": "margo-robbi",
+    "cat": 1,
+    "husband": null,
+    "author": null,
+    "tags": []
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 3,
+  "fields": {
+    "title": "Джулия Робертс",
+    "content": "Джулия Фиона Робертс (англ. Julia Fiona Roberts; род. 28 октября 1967, Атланта, Джорджия, США) — американская актриса кино и телевидения, продюсер. Первым успехом Джулии Робертс в кино стала роль в фильме «Стальные магнолии» (1989), за которую она получила премию «Золотой глобус» и номинацию на премию «Оскар» за «Лучшую женскую роль второго плана» в 1990 году. Через год она приобрела статус «звезды Голливуда» после исполнения главной роли в мелодраме «Красотка» (1990), принёсшей ей вторую премию «Золотой глобус», вторую номинацию на премию «Оскар» и номинацию на премию BAFTA в категории «Лучшая женская роль» в 1991 году.\r\n\r\nВ 2001 году, сыграв главную роль в биографическом фильме «Эрин Брокович» (2000), Робертс стала обладательницей множества наград, в том числе премии «Оскар», третьей премии «Золотой глобус», премии BAFTA и «Премии Гильдии киноактёров США» в номинации «Лучшая женская роль». В 2014 году Джулия Робертс была номинирована на премии «Оскар», «Золотой глобус» и BAFTA, а также на «Премию Гильдии киноактёров США» за «Лучшую женскую роль второго плана» в фильме «Август: Графство Осейдж» (2013).\r\n\r\nДжулия Робертс — одна из самых высокооплачиваемых актрис в мире[4]. Фильмы с её участием принесли в мировом прокате прибыль на сумму свыше двух миллиардов долларов[5].\r\n\r\nРодилась 28 октября 1967 года в городе Смирна (штат Джорджия, США)[6][7]. Будущая актриса стала третьим ребёнком в семье. У неё есть старший брат Эрик Робертс (род. 18 апреля 1956) и сестра Лиза (род. 5 августа 1965). Отец Джулии, Уолтер Грэйди Робертс (1933—1977), был продавцом водяных матрацев и одновременно был актёром и писателем. Мать Джулии, Бетти Лу Бредемас, работавшая секретарём в церковном приходе и по совместительству актриса, родилась в Миннеаполисе в 1934 году. Робертс имеет ирландские, шотландские, валлийские, английские, немецкие и шведские корни[8].\r\n\r\nРодители Джулии на момент её появления в семье находились в тяжёлом финансовом положении. Отец Робертс владел маленькой актёрской школой для детей в Декейтере (Джорджия), которую посещали дети Мартина Лютера Кинга. Когда миссис Робертс родила Джулию, Кинг в знак благодарности за внимание к своим детям оплатил больничный счёт[9].\r\n\r\nВ 1971 году, когда Джулии исполнилось 4 года, её мать Бетти Лу Робертс подала на развод. В следующем году она повторно вышла замуж за театрального критика Майкла Моутса (Michael Motes). В браке матери Джулии и Майкла родилась дочь Нэнси Моутс (Nancy Motes), которая скончалась 9 февраля 2014 года в Лос-Анджелесе в результате передозировки наркотиками в возрасте 37 лет[10][11]. Брак Бетти Лу с Моутсом распался в 1983 году. Позже Бетти называла это замужество «большой ошибкой»: отчим применял физическое насилие к детям Бетти. Спустя годы Эрик Робертс сделал несколько публичных заявлений на эту болезненную для Джулии тему. Джулия не только не одобрила поступок брата, но и сама никогда не выступала с откровениями о своём тяжёлом детстве из уважения к своей матери и сестре Нэнси.",
+    "time_create": "2024-06-05T12:14:19.749Z",
+    "time_update": "2024-07-27T07:45:35.785Z",
+    "photo": "photos/2024/07/27/images_fiUhYhf.jfif",
+    "is_published": true,
+    "slug": "dzhuliya-roberts",
+    "cat": 1,
+    "husband": null,
+    "author": null,
+    "tags": []
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 4,
+  "fields": {
+    "title": "Екатерина Гусева",
+    "content": "Дженнифер Шрейдер Лоуренс (англ. Jennifer Shrader Lawrence]; род. 15 августа 1990, Индиан-Хиллз, Кентукки, США) — американская актриса кино и телевидения. Лауреат премии «Оскар» (2013), трёх премий «Золотой глобус» (2013, 2014, 2016), премии BAFTA (2014), двух «Премий Гильдии киноактёров США» (2013, 2014) и премии «Сатурн» (2013).\r\n\r\nДженнифер Лоуренс начала актёрскую карьеру в 2006 году, сыграв в телепроекте «Городская компания». Свою первую главную роль она исполнила в драме «Дом покера (англ.)русск.». Признание в актёрской среде она получила после роли Тиффани в комедийной драме «Мой парень — псих», а массовому зрителю стала известна как молодая Мистик в фантастических фильмах «Люди Икс: Первый класс» (2012), «Люди Икс: Дни минувшего будущего» (2014) и «Люди Икс: Апокалипсис» (2016). Наибольшую популярность актрисе принесла роль Китнисс Эвердин в экранизации книжной трилогии «Голодные игры».\r\n\r\nВ 2011 году Дженнифер в двадцатилетнем возрасте была номинирована на премию «Оскар» и «Золотой глобус» в категориях «Лучшая женская роль» и «Лучшая женская роль в драматическом фильме» за исполнение роли Ри Долли в драме «Зимняя кость», но обе статуэтки тогда выиграла Натали Портман. В периоде между 2012 и 2013 годами Дженнифер получила множество наград за роль в комедийной драме «Мой парень — псих», в их числе «Оскар», «Золотой глобус» и Премия Гильдии киноактёров США в номинациях «Лучшая женская роль». Актёрская работа Лоуренс в криминальной трагикомедии «Афера по-американски» принесла ей первую статуэтку BAFTA (2014), второй «Золотой глобус» (2014) и номинации на «Оскар» и «Премию Гильдии киноактёров США». Самая высокооплачиваемая актриса 2014—2015 года по версии журнала Forbes.",
+    "time_create": "2024-06-05T12:15:22.910Z",
+    "time_update": "2024-07-23T07:04:19.955Z",
+    "photo": "photos/2024/07/23/images.jfif",
+    "is_published": true,
+    "slug": "ekaterina-guseva",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 6,
+  "fields": {
+    "title": "Рианна",
+    "content": "Биография Рианны",
+    "time_create": "2024-07-22T16:31:28.760Z",
+    "time_update": "2024-07-22T16:31:28.760Z",
+    "photo": "photos/2024/07/22/Без_названия.jfif",
+    "is_published": true,
+    "slug": "rianna",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 8,
+  "fields": {
+    "title": "Дженна Ортега",
+    "content": "Дженна Ортега — американская актриса и певица с мексиканскими корнями. Она родилась 27 сентября 2002 года в Калифорнии. А свою карьеру начала уже в шесть лет и к 2022 году смогла добиться всемирной популярности.\r\nСвою первую роль Дженна получила уже в восемь, снявшись в эпизоде комедийного сериала «Роб». Затем она на пару мгновений появилась в третьей части фильма «Железный человек», где сыграла дочь вице-президента. А в 2016 году Дисней утвердил актрису на главную роль в подростковом сериале «Жизнь Харли». Но прорывной для Ортеги стала роль в американском сериале «Уэнсдей». Актриса даже была номинирована на «Золотой глобус».\r\nСегодня у юной звезды почти 40 миллионов подписчиков в популярной соцсети. Девушка активно поддерживает различные благотворительные организации и участвует в социальных проектах. Ортега основала несколько проектов по борьбе с ксенофобией и дискриминацией мигрантов.",
+    "time_create": "2024-07-27T07:37:10.691Z",
+    "time_update": "2024-07-27T07:37:10.691Z",
+    "photo": "photos/2024/07/27/volga.jpg",
+    "is_published": true,
+    "slug": "dzhenna-ortega",
+    "cat": 1,
+    "husband": null,
+    "author": null,
+    "tags": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 9,
+  "fields": {
+    "title": "Белла Рамзи",
+    "content": "Британская актриса Белла Рамзи родилась в 2003 году в Великобритании. Актриса прославилась благодаря роли Лианны Мормонт, правительницы Медвежьего острова, в телесериале НВО «Игра престолов». В обзоре журнала Hollywood Reporter Беллу Рамзи назвали «восходящей звездой шестого сезона сериала».\r\nВ 2017 году Рамзи сыграла главную роль в телесериале «Самая плохая ведьма», за что получила награду BAFTA как лучшая молодая актриса. А 15 января 2023 года состоялась премьера экранизации игры «The Last of Us» от НВО, ставшая хитом буквально после первого эпизода. Рамзи сыграла в сериале главную героиню Элли, которая в компании контрабандиста Джоэла путешествует по постапокалиптической Америке. Ее игра получила высокие оценки критиков, у девушки уже множество фанатов по всему миру.",
+    "time_create": "2024-07-27T07:38:11.074Z",
+    "time_update": "2024-07-27T07:38:11.074Z",
+    "photo": "photos/2024/07/27/volga_dilx2p6.jpg",
+    "is_published": true,
+    "slug": "bella-ramzy",
+    "cat": 1,
+    "husband": null,
+    "author": null,
+    "tags": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 10,
+  "fields": {
+    "title": "Сэди Синк",
+    "content": "Сэди Синк родилась в Техасе в многодетной семье футбольного тренера 12 апреля 2002 года. Несмотря на юный возраст, девушка успела появиться в шпионском сериале «Американцы», бродвейской постановке «Аудиенция», телепроекте «Американская одиссея» и драме «Стеклянный замок».\r\nСэди также снялась в клипе на песню «All Too Well» популярной американской певицы Тейлор Свифт. Актриса призналась, что с детства была поклонницей Свифт, поэтому без раздумий приняла ее приглашение.",
+    "time_create": "2024-07-27T07:39:37.017Z",
+    "time_update": "2024-07-27T07:39:37.017Z",
+    "photo": "photos/2024/07/27/volga_Ndzj0qi.jpg",
+    "is_published": true,
+    "slug": "sedi-sink",
+    "cat": 1,
+    "husband": null,
+    "author": null,
+    "tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 11,
+  "fields": {
+    "title": "Ариана Гранде",
+    "content": "Ариана Гранде-Бутера — американская певица, актриса, автор песен, музыкальный продюсер, обладательница премии «Грэмми».\r\nМузыкальная карьера Арианы началась в 2011 году с записи саундтрека к сериалу «Виктория-победительница». В том же году она заключила контракт со звукозаписывающей компанией Republic Records. В 2013 году у неё вышел дебютный альбом Yours Truly, дебютировавший на первом месте в американском чарте Billboard 200. Песня «The Way» с этого альбома занимала уверенные позиции в первой десятке чарта Billboard Hot 100 и была положительно встречена музыкальными критиками.",
+    "time_create": "2024-07-27T07:42:51.729Z",
+    "time_update": "2024-07-27T07:42:51.729Z",
+    "photo": "photos/2024/07/27/images.jfif",
+    "is_published": true,
+    "slug": "ariana-grande",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 12,
+  "fields": {
+    "title": "Билли Айлиш",
+    "content": "Айлиш родилась в Хайленд-Парке, Лос-Анджелес, в семье Мэгги Бэрд и Патрика О’Коннелла. Её родители работают в индустрии развлечений. Айлиш имеет ирландские и шотландские корни. Она получила домашнее образование, и в возрасте 8 лет присоединилась к Лос-анджелесскому детскому хору. В возрасте 11 лет Айлиш начала писать песни, идя по стопам её старшего брата Финнеаса (род. 1997), в то время имевшего собственную группу.\r\n\r\nДолгое время занималась танцами, однако в январе 2016 получила травму, навсегда прервавшую её танцевальную карьеру.\r\nВ октябре 2015 года Айлиш записала песню «Ocean Eyes», изначально написанную её братом для своей группы. Её учитель хореографии помог ей сделать танец для этой песни.\r\nЕё дебютный сингл «Ocean Eyes» по состоянию на февраль 2018 года набрал более 35 миллионов прослушиваний на Spotify и 110 миллионов просмотров на YouTube на май 2019 года.\r\nЕё дебютный мини-альбом, Don’t Smile at Me, был выпущен в августе 2017 года.\r\nВ сентябре 2017 года Apple назвали Айлиш «артистом UpNext» от Apple Music.\r\nНа март 2019 года Билли является единственным артистом, занимающим более одного места в топ-10 мирового альбомного чарта Apple Music.\r\nДебютный альбом Айлиш When We All Fall Asleep, Where Do We Go? побил рекорд по предзаказам на музыкальной платформе Apple Music, официальная премьера которого состоялась 29 марта",
+    "time_create": "2024-07-27T07:44:15.237Z",
+    "time_update": "2024-07-27T07:44:39.386Z",
+    "photo": "photos/2024/07/27/images_ARpcffo.jfif",
+    "is_published": true,
+    "slug": "billie-eilish",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": []
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 13,
+  "fields": {
+    "title": "Леди Гага",
+    "content": "Стефани родилась в семье низкого достатка и является самым старшим ребенком итальянских предпринимателей Джозефа Джерманотты и Синтии Биссет. В четыре года она сама научилась играть на пианино, подбирая мелодии на слух, а будучи ребенком распевала песни Синди Лоупер и Майкла Джексона, записывая свой голос на дешевенький магнитофон. Она - левша.\r\nВ 11 лет Стефани поступила в частную католическую школу \"Монастырь святого Христа\", но была одной из самых бедных учениц, поэтому матери и отцу пришлось устраиваться на несколько работ, чтобы оплачивать обучение. В этой школе учились известные сестры Хилтон.\r\nВ подростковом возрасте будущая Lady GaGa написала свою первую песню. Уже в 14 лет она вела открытые вечера. В театральных постановках школы ей всегда доставались главные роли. Она участвовала в пьесе \"Реджис\", играла роль Филии в \"Кое-что забавное случилось по пути на форум\", роль Анны Андреевной в \"Правительственном инспекторе\", мисс Аделаиду в \"Парнях и куколках\" и Элис Мур в постановке \"Мужчина на все сезоны\". Она также пела в джазовом оркестре школы.\r\n\r\nК 17 годам Стефани стала одной из 20 человек в мире, кто досрочно сдал программу Клива Дэвиса в Нью-Йоркской школе искусств по программе музыкального театра. Она закончила обучение намного раньше других, потому что была намного умнее сверстников.\r\nОтец оплатил аренду квартиры и Стефани перебралась от родителей сразу после школы. Она переключилась в клубы, расположенные в нижней части восточного Нью-Йорка, где выступала со своими ранними командами Mackin Pulsifer и SGBand. Окруженная музыкантами и певцами, которые работали в одном определенном музыкальном стиле, Стефани решила сделать что-то свежее и провокационное. В 2006 году она стала сотрудничать с Робом Фасари - известным продюсером, с которым написала несколько ранних композиций, среди которых \"Beautiful Dirty Rich\", \"Dirty Ice Cream\" и \"Disco Heaven\". Свое сценическое имя Леди Гага придумала тогда, когда исполняла песню \"Again, Again\". Эта кличка - ссылка на песню \"Radio Ga-Ga\" группы Queen. В тот день, когда была придумана кличка, девушка попросила, чтобы ее больше никогда не называли Стефани в кругу музыкантов.\r\nВ 19 лет Стефани подписала свой первый контракт с компанией Def Jam, но через три месяца покинула лейбл. В начале 2007 года ей предложили работать с Interscope. Руководители наняли ее на работу автора песен и свели с певцом Эйконом, с которым она сотрудничала. Работая над демо-версиями треков, Эйкон просил, чтобы Джерманотта сама шла в будку для звукозаписи и исполняла вокалы. Поняв, что у нее самой есть талант петь, Стефани предложили объединенный контракт с компанией Kon Live.",
+    "time_create": "2024-07-27T07:49:11.441Z",
+    "time_update": "2024-07-27T07:49:11.441Z",
+    "photo": "photos/2024/07/27/1688124749649ebd4ddd25d.png",
+    "is_published": true,
+    "slug": "lady-gaga",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 14,
+  "fields": {
+    "title": "Люся Чеботина",
+    "content": "Люся Чеботина не нуждается в солнце Монако, потому что все тепло получает от своих российских поклонников. Певица участвовала в украинском «Голосе» (2010-...), российской «Главной сцене» (2015-2016) и фестивале «Новая волна», а также училась в музыкальном колледже эстрадного и джазового искусства. Если и таких регалий вам мало, то пожалуйста: молодую артистку обожают Любовь Успенская и Филипп Киркоров. Им мы верим.\r\n\r\nВ дискографии Люси — два полноценных альбома, а также хиты с Димой Биланом, Юркиссом и другими артистами. В этом году поклонникам певицы удалось послушать еще несколько новых песен: «Целуй меня», «Абьюз» и «Императрица».",
+    "time_create": "2024-07-27T07:50:49.149Z",
+    "time_update": "2024-07-27T07:50:49.149Z",
+    "photo": "photos/2024/07/27/380ac8a237e5cd1b64175777d8a23533d40ffe35_rte8EyK.webp",
+    "is_published": true,
+    "slug": "lusya-chebotina",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 15,
+  "fields": {
+    "title": "Мари Краймбрери",
+    "content": "Марина Жадан (настоящее имя Мари Краймбрери) — самая везучая певица этого рейтинга. По крайней мере, так утверждает ее главный летний хит этого года. Кроме него, Мари порадовала поклонников песнями «Моя красивая, стой», «Малая, пой» и «Иначе все это зря».\r\n\r\nВ планы Мари не входило становиться певицей: в детстве она мечтала стать хореографом. И стала бы, но помешала спортивная травма. По крайней мере, на ее голосе это не сказалось: вокальный талант Мари помог ей попасть в топ «30 до 30» от Forbes в 2023 году.",
+    "time_create": "2024-07-27T07:51:41.383Z",
+    "time_update": "2024-07-27T07:51:41.384Z",
+    "photo": "photos/2024/07/27/380ac8a237e5cd1b64175777d8a23533d40ffe35_0nVSUDN.webp",
+    "is_published": true,
+    "slug": "mary-crymberi",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 16,
+  "fields": {
+    "title": "Клава Кока",
+    "content": "Эта певица может для каждого служить синонимом упорства и храбрости. Она приняла участие в проекте «Главная сцена» (2015-2016) и получила суровую рекомендацию «петь на кухне для друзей и знакомых». Николая Носкова, Ирину Аллегрову и Диану Арбенину не впечатлила нежная манера девушки, умеющей играть на гитаре.\r\n\r\nКто угодно мог бы послушаться совета видных деятелей, прославленных на всю Россию, но не Клава. Вскоре после столь неприятной сцены певица попала к Тимати и подписала контракт с его лейблом Black Star. Последовали смена имиджа, оглушительный успех, участие в проекте «Сердце Клавы» (2023) и место в нашем топе.\r\n\r\nЖаль, конечно, что этого недостаточно, чтобы удивить следующую певицу нашего рейтинга. Однако мы уверены, что Клаву после всего пережитого это мало волнует.",
+    "time_create": "2024-07-27T07:52:45.270Z",
+    "time_update": "2024-07-27T07:52:45.270Z",
+    "photo": "photos/2024/07/27/380ac8a237e5cd1b64175777d8a23533d40ffe35_Vh9XZAj.webp",
+    "is_published": true,
+    "slug": "clava-cocka",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 17,
+  "fields": {
+    "title": "Алена Швец",
+    "content": "Алёна Швецова родилась 12 марта 2001 года в Златоусте (Челябинская область) в семье медика и строителя. Петь начала с раннего детства, родители отдали её на вокал из-за бронхиальной астмы. В подростковом возрасте у Алёны появилось укулеле, на котором Алёна училась играть с помощью видео-уроков в интернете, чуть позже появилась первая гитара, на которой она сама училась играть, она начала исполнять песни российских поп-исполнителей на улицах Челябинска.\r\nПервые песни собственного сочинения Швецова выложила в социальной сети «ВКонтакте» под псевдонимом «Алёна Швец». Вышедший в июле 2018 года дебютный мини-альбом «Вписка на балконе» обратил внимание общественности на молодую исполнительницу. Альбом «Похороните меня за социум» был выпущен в октябре 2018, его название, судя по всему, является отсылкой к повести Павла Санаева. Настоящую популярность Алёне Швец принёс альбом «Когда зацветёт сирень», после выхода которого в апреле 2018 года она стала узнаваемой в Рунете.\r\n25 сентября 2019 года Алёна Швец выступила на шоу «Вечерний Ургант» с песней «Одуванчик» из альбома «Проволока из одуванчиков», вышедшего 6 сентября 2019 года.\r\n\r\nЛетом 2020 года вышел её пятый альбом «Королева отстоя», состоящий из десяти треков. Композиция «Молодая красивая дрянь» была ранее издана как сингл. На песни «Машина для убийств» и «Молодая красивая дрянь» были сняты видеоклипы.\r\n\r\nВесной 2021 года вышел мини-альбом «Мелкая с гитарой», включающий в себя пять треков.\r\n\r\n15 июля того же года в честь годовщины Spotify в России стриминговая платформа заявила, что Швец заняла первое место в топ-10 сольных исполнительниц. Также фотография Алёны находилась на главном небоскребе Times Square в Нью-Йорке в рамках кампании «Equal» от Spotify в поддержку женщин в музыкальной индустрии.\r\n\r\n22 ноября вышел мини-альбом «Вредина», включающий в себя три трека: «Вредина», «Удалю» и «Луна». На них был снят концептуальный клип.",
+    "time_create": "2024-07-27T07:55:03.051Z",
+    "time_update": "2024-07-27T07:55:03.051Z",
+    "photo": "photos/2024/07/27/380ac8a237e5cd1b64175777d8a23533d40ffe35_ZQMXTVz.webp",
+    "is_published": true,
+    "slug": "alena-shwetz",
+    "cat": 2,
+    "husband": null,
+    "author": null,
+    "tags": []
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 18,
+  "fields": {
+    "title": "Екатерина Гамова",
+    "content": "Уроженка Челябинска громко заявила о себе еще в конце 90-х, когда в 18-летнем возрасте попала в основу сборной России. Минувшее же десятилетие стало ярким венцом выдающейся карьеры волейболистки. Ее последние шесть лет (с 2010-го по 2016-й) пришлись на выступление в столице Татарстана. Десять лет назад переход Гамовой из турецкого «Фенербахче» в «Динамо-Казань» наделал много шума и стал одним самых ярких трансферов в истории казанского спорта вообще. Екатерина подошла к переходу нетривиально и изъявила желание подписать контракт на розовой бумаге, что также много обсуждалось.\r\n\r\nНа тот момент женская волейбольная команда Казани не была в фаворитах и лишь готовилась к большим победам. С Гамовой «динамовки» пять раз подряд стали чемпионками страны, а в 2014-м выиграли Лигу чемпионов и клубный чемпионат мира. В 2010 году волейболистка также была признана MVP победного для сборной России чемпионата мира и набрала 35 очков в финальной игре.\r\n\r\nС 2013 года Екатерина выступала под фамилией Гамова-Мукасей, так как вышла замуж за представителя известной кинодинастии Михаила Мукасея. Прощальный матч провела 1 октября 2016 года в казанском Дворце волейбола в выставочной встрече московского «Динамо» и «Динамо-Казань». Гамова сыграла в том матче за обе команды, а после игры все дружно плакали, когда под своды арены поднимали майку с фамилией Екатерины. Это было достойное завершение отличной карьеры, в которой волейболистка много сделала для Казани, а Казань — для волейболистки.",
+    "time_create": "2024-07-27T08:03:08.341Z",
+    "time_update": "2024-07-27T08:03:08.341Z",
+    "photo": "photos/2024/07/27/images_KK3XYVR.jfif",
+    "is_published": true,
+    "slug": "ekaterina-gamova",
+    "cat": 3,
+    "husband": null,
+    "author": null,
+    "tags": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 19,
+  "fields": {
+    "title": "Мария Шарапова",
+    "content": "Одна из богатейших спортсменок мира и настоящая любимица публики. Очевидно, что в новом десятилетии у Шараповой уже не будет практически никаких спортивных успехов — конкуренция в женском теннисе с каждым годом только усиливается. Однако биографию Марии стоит изучить каждой, кто претендует на что-то серьезное. Ее минувшее десятилетие вобрало в себя все: и красивые взлеты, и стыдные падения. Хотя нельзя отрицать очевидного — именно за 2010—2019 годы Мария Шарапова стала настоящим брендом. В Гарварде даже есть спецкурс по успешному маркетингу на примере теннисистки.\r\n\r\nПервая половина десятилетки связана со спортивными успехами россиянки: в 2012 году она стала лишь шестым игроком в мировом теннисе, которому покорился так называемый карьерный шлем — победа на всех четырех турнирах Большого шлема в разные годы. Мария в красивом стиле выиграла «Ролан Гаррос», чуть ранее возглавив рейтинг лучших теннисисток мира. Пожалуй, это был пик карьеры Шараповой, с 2012-го началось медленное падение. В финале лондонской Олимпиады она проиграла Серене Уильямс без каких-либо шансов (0:6, 1:6), а затем выдала 19-матчевую проигрышную серию своей главной сопернице и антагонистке. За это над Марией принято посмеиваться в мировом спортивном сообществе. При этом главную свою победу над Сереной она одержала в 17-летнем возрасте, выиграв финал «Уимблдона» в 2004 году.\r\n\r\nВ 2013-м была в девятый раз подряд признана самой высокооплачиваемой спортсменкой в мире. По данным «Форбс», общий годовой доход Шараповой на тот момент составил 29 миллионов долларов. В том же году она объявила о том, что состоит в отношениях с болгарским теннисистом Григором Димитровым. Рассталась пара спустя два года, а 2016 год стал поворотным для Шараповой. Многие называют его неофициальной точкой в спортивной карьере теннисистки. 7 марта Шарапова на экстренной пресс-конференции объявила о применении запрещенного на тот момент мельдония. Ее дисквалифицировали всего на год, но после возвращения в большой спорт Мария уже ничего не добилась, играя скорее по инерции — для себя и из уважения к поклонникам. Зато в прошедшей десятилетке Шарапова стала активно вести бизнес и продвигать свой шоколадный бренд Sugarpova.",
+    "time_create": "2024-07-27T08:04:34.650Z",
+    "time_update": "2024-07-27T08:04:34.650Z",
+    "photo": "photos/2024/07/27/754339617563733.jpg",
+    "is_published": true,
+    "slug": "maria-sharapova",
+    "cat": 3,
+    "husband": null,
+    "author": null,
+    "tags": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "women_app.women",
+  "pk": 20,
+  "fields": {
+    "title": "Алина Загитова",
+    "content": "Настоящий уникум своего вида спорта в концовке минувшего десятилетия. Начала заниматься фигурным катанием в Альметьевске во дворце спорта «Юбилейный», где ее отец Ильназ Загитов играл за местный хоккейный «Нефтяник». Пока весь мир говорил о Евгении Медведевой, Алина работала и готовила сюрприз. В ее детском возрасте были турниры, на которых будущая суперзвезда мирового фигурного катания занимала только 26-е место из 29 участников, но за два года до Олимпиады в Пхенчхане о ней начали говорить как о новом восходящем таланте группы Этери Тутберидзе. В 15 лет Алина выиграла Олимпиаду, заставив плакать ставшую второй партнершу по команде, ту самую Медведеву. После провального чемпионата мира в том же году пошли разговоры, что успех Загитовой мог быть случайным, но Алина провела следующий сезон на высочайшем уровне, выиграв и чемпионат Европы, и мировое первенство, заставив замолчать всех критиков.\r\n\r\nВ 16 лет она стала самой юной фигуристкой, которой покорились все главные турниры. В историю мирового катания Алина войдет как спортсменка, которая лучше всех пользовалась надбавкой баллов за исполнение прыжков во второй половине программы. Загитова вынослива, красива, грациозна, воспитанна, широко обсуждаема и любима. В новом десятилетии ей будет практически нереально бороться за первые места с новыми талантами группы Тутберидзе, но она настроена кататься дальше как для себя, так и для фанатов по всему миру.",
+    "time_create": "2024-07-27T08:05:50.633Z",
+    "time_update": "2024-07-27T08:05:50.633Z",
+    "photo": "photos/2024/07/27/754339617563733_PGcPsSP.jpg",
+    "is_published": true,
+    "slug": "alina-zagitova",
+    "cat": 3,
+    "husband": null,
+    "author": null,
+    "tags": [
+      1,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-07-18T05:55:37.642Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "3",
+    "object_repr": "Джулия Робертс",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-07-18T05:55:37.659Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "2",
+    "object_repr": "Марго Робби",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-07-18T05:55:37.663Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "1",
+    "object_repr": "Анжелина Джоли",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-07-20T06:55:49.412Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "5",
+    "object_repr": "ааааа",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-07-20T07:19:02.901Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "9",
+    "object_repr": "dd",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-20T07:19:02.976Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "8",
+    "object_repr": "fffff",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-20T07:19:03.050Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "7",
+    "object_repr": "fff",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-20T07:19:03.117Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "6",
+    "object_repr": "fff",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-20T07:24:44.590Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "10",
+    "object_repr": "ffff",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-22T06:32:16.189Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "13",
+    "object_repr": "ввввв",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-22T07:49:23.223Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "15",
+    "object_repr": "аааааааааа",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-22T07:49:23.293Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "14",
+    "object_repr": "ввввввввв",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-22T07:51:00.961Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "17",
+    "object_repr": "ввввввввв",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-22T10:36:57.911Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "18",
+    "object_repr": "вввв",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-23T07:04:19.987Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "4",
+    "object_repr": "Екатерина Гусева",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-25T06:40:13.720Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "7",
+    "object_repr": "вввв",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-27T07:44:39.419Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "12",
+    "object_repr": "Билли Айлиш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-27T07:45:35.801Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "3",
+    "object_repr": "Джулия Робертс",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-07-27T07:46:08.992Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "2",
+    "object_repr": "Марго Робби",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-07-27T07:46:36.156Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "1",
+    "object_repr": "Анжелина Джоли",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-07-27T08:34:03.721Z",
+    "user": [
+      "vitya"
+    ],
+    "content_type": [
+      "women_app",
+      "women"
+    ],
+    "object_id": "21",
+    "object_repr": "А я иду такая вся",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

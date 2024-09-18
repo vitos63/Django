@@ -1,0 +1,2972 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "membercharact"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "baggage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "health"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "hobbii"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "phobia"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "profession"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "fact"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "disasters"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "information"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "menu"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "characteristics"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "rules"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "newmodel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "bunker_app",
+    "model": "information1"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9fjr5hqnc3ow4lh2vpk6koxb02u4017y",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1smokU:08mzuwM-UT-i7iJylNCLMrms3P0zB4DQJiKUQhHSIUA",
+    "expire_date": "2024-09-21T06:16:42.409Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "esa5a356you8bbqprmh7bbok9211s2dj",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1smp5n:RzQznaEkPfTWIocAM5sDBFhpdrAYitQIjEBs4gxbjy8",
+    "expire_date": "2024-09-21T06:38:43.022Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ga8rzewj0uwuic0lafhkf8j1q3qodsb7",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1smdRX:T1NHIY00zyCE0SLJpfQP46ltKmm1-usMtSfhL1AIjn0",
+    "expire_date": "2024-09-20T18:12:23.374Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lg9i06w0uymmjmylo354z7erykbn1xtb",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1spRTE:d_ZhUxB7_Ar9xe4ZQbOKATJg52NpAG0SHtz5lAgDOAE",
+    "expire_date": "2024-09-28T12:01:44.225Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pj710jvadwv2turm7wwgxpo2vh73ade5",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1snO19:ib9uUoqbaUle-6lRxWltuX4iN05OSRERqwkPZ3I0_pE",
+    "expire_date": "2024-09-22T19:56:15.390Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sluoxaoif6l6zq6914drd1a1lqwkhg7t",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1soflL:iFBYJ4sJxEafciMtAlxSA4lV4sZ-VzASeqfWHiWKhR4",
+    "expire_date": "2024-09-26T09:05:15.787Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vgp07u8s4bi7lc40pczp4gx0xqajm7bw",
+  "fields": {
+    "session_data": ".eJyrViotTi1SsgJT8dmplUo6SimZxYnFJWDRmFIDE0MLEGmcAiZTwWQamEwCkwZIsqYg0sQITKYhiwNNzU3NTUotKo5Pzi_NK1GyMq4FAFc7JiE:1sqeJd:yT0I0MDrltSo8cfrYGSddA3PXsjojJmmss4ShzFF8xM",
+    "expire_date": "2024-10-01T19:56:49.076Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wmk9nonhdiyx7d2i1fmcg4c5bua6cnu6",
+  "fields": {
+    "session_data": ".eJyrVkrJLE4sLkktUrJSiik1MDG0AJEmhiDSOBHMNkaIQEkjsCyENAWTKQjSJAnMtlQAUxZIEsgakpBIUyTLjJR0lHJTc5NSi4rjk_NL80qUrIx0lEqLwQ4EUfHZqZVKtQBAojZ9:1sqeJq:xmSpPjny8_Hl9RzsVLM6tMhkcUYNHq9Zp0YVsmcnx7U",
+    "expire_date": "2024-10-01T19:57:02.768Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yp9gjs7biv19k4qvhq26475cubuv2z35",
+  "fields": {
+    "session_data": ".eJyrViotTi1SsgJT8dmplUo6Sjn56cVKVtFKMaUGJoYWINLYGESaGIDZqWAyUQFMGYFJiEQasghY2gSszzgZTJpCzNCBaISYa64LoZD1mCDZYoik1gIsbWiMMMw4CUk6FZ9mkzSl2FoAHwVCBA:1smooV:1gWn-kDElkdcO2yF8KqmIf-2511EfW2nJFBdzhG9UCM",
+    "expire_date": "2024-09-21T06:20:51.347Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zth4d2mk2roiazbcrdzgonyio5sgt1tz",
+  "fields": {
+    "session_data": "eyJ1c2VyIjoidXNlcl9rZXkifQ:1smpsA:qEN6AUKRR0MaP8gDRv8J9icvLh9a7zzfBOeLSsvNbfc",
+    "expire_date": "2024-09-07T08:18:42.007Z"
+  }
+},
+{
+  "model": "bunker_app.menu",
+  "pk": 1,
+  "fields": {
+    "name": "Правила игры",
+    "url_name": "rules"
+  }
+},
+{
+  "model": "bunker_app.menu",
+  "pk": 2,
+  "fields": {
+    "name": "Описание характеристик",
+    "url_name": "characteristics"
+  }
+},
+{
+  "model": "bunker_app.menu",
+  "pk": 3,
+  "fields": {
+    "name": "Расчет",
+    "url_name": "count"
+  }
+},
+{
+  "model": "bunker_app.menu",
+  "pk": 4,
+  "fields": {
+    "name": "Обратная связь",
+    "url_name": "feedback"
+  }
+},
+{
+  "model": "bunker_app.rules",
+  "pk": 1,
+  "fields": {
+    "name": "История",
+    "info": "Неожиданно для всех землю охватывает смертельный катаклизм. Все в панике пытаются найти укрытие, однако мест в бункере на всех не хватит. Придется выбирать кто останется в живых, а кто будет обречен на смерть."
+  }
+},
+{
+  "model": "bunker_app.rules",
+  "pk": 2,
+  "fields": {
+    "name": "Подготовка к игре",
+    "info": "Случайным образом выбирается катастрофа, которая настигла планету Земля. Далее игрокам поочередно выдается по одной карточке характеризующие персонажа: Пол и возраст, Профессия, Здоровье, Хобби, Фобия, Багаж, а так же 2 факта. И раздается две кары действия.\n<b>ВАЖНО</b>: Прежде чем начать игру, запомните, что вы собрались компанией друзей или семьей, вы все друг другу очень дороги и данная игра не повод портить отношения между собой!"
+  }
+},
+{
+  "model": "bunker_app.rules",
+  "pk": 3,
+  "fields": {
+    "name": "Ход игры",
+    "info": "<h2>Раунд игры</h2>\n\nКаждый игрок поочередно открывает по одной карте, характеризующей своего персонажа и высказываются, почему именно они должны попасть в бункер. Другие игроки могут отвечать на аргументы активного игрока, но при этом не мешать ему.\n<b>Важно:</b> В 1-м раунде все игроки открывают не любую карту, а карту Профессии.\nКогда круг завершен, переходите к стадии \"\"Голосования\"\".\n\n<h2>Голосование</h2>\n\nПеред голосованием все игроки, в том числе и все изгнанные, проводят общее обсуждение и могут предлагать кандидатов на изгнание.\nЗатем все неизгнанные игроки поочередно высказываются о том, кого они хотят выгнать, так же каждый человек имеет право воздержаться от голосования.\nЕсли несколько игроков набрали одинаковое максимальное число голосов им дается некоторое время на защиту своей кандидатуры и проводится повторное голосование, выбирая только из этих кандидатов. Если снова\nнесколько игроков набирают одинаковое максимальное число голосов все игроки остаются вживых и игра продолжается.\nПосле голосования начните новый раунд. Активным игроком, который начинает новый раунд, становится следующий за тем, кто начинал текущий раунд.\n\n<h2>Разыгровка действия</h2>\n\nКаждый игрок, которого еще не изгнали может в любой момент (даже если сейчас не его ход) разыграть карту действия."
+  }
+},
+{
+  "model": "bunker_app.rules",
+  "pk": 4,
+  "fields": {
+    "name": "Финал игры",
+    "info": "<h2>Судьба изгнанных</h2>\n\nЛюди которых не пустили в бункер попытались найти другое убежище, но все тщетно, их постигла неминуемая смерть.\n<h2>Судьба попавших в бункер</h2>\n\nЕсли вы попали в бункер - это еще не значит, что ваша жизнь в безопасности. Ведь вы находитесь в замкнутом пространстве с незнакомыми людьми и никто не знает, что они них ожидать.\n\nПопавшие в бункер поочередно открывают все оставшиеся(которые не были открыты во время игры) карты, характеризующие своего персонажа и зачитывают их.\nДалее во вкладке \"Расчет\" необходимо занести все характеристики игроков, которые вошли в бункер, после чего будет выдан результат с подробным описанием того, что произошло в бункере, кому удалось выжить, а так же удалось ли продолжить род, после выхода из бункера."
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 2,
+  "fields": {
+    "characteristic": "Пол и возраст",
+    "description": "В игре представлены четыре характеристики пола персонажа:\n<b>\n1. Мужчина\n2. Бесплодный мужчина\n3. Женщина\n4. Бесплодная женщина</b>\n\nРазличие между бесплодными и фертильными персонажами заключается в том, что первые не могут иметь детей, однако их можно вылечить, если в бункере присутствует Уролог (для мужчин) или Гинеколог (для женщин).\n\nВозраст персонажа также играет важную роль. Например, молодой мужчина обладает большей вероятностью дать здоровое потомство, но может быть менее опытен в бытовых и практических делах по сравнению с более старшим персонажем. Молодая женщина, в свою очередь, имеет высокие шансы на успешные роды, однако ей может не хватать опыта в воспитании детей, который больше присущ пожилым персонажам.\n\nПол и возраст персонажа оказывают влияние на расчет очков выживания и размножения, что напрямую влияет на их шансы на успешное потомство и выживание в суровых условиях.",
+    "image": "photos/2024/09/14/пол_возраст_Ж_34.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 3,
+  "fields": {
+    "characteristic": "Профессия",
+    "description": "\"В данной версии игры представлено множество профессий, каждая из которых обладает своей уникальной ценностью и может оказать значительное влияние на ход событий. Однако существует несколько ключевых профессий, которые особенно важны для выживания:\n\n· <b> Уролог </b> – излечивает всех мужчин в бункере от бесплодия.\n· <b>Онколог</b> – лечит всех людей с онкологическими заболеваниями, возвращая им идеальное здоровье.\n· <b>Гинеколог</b> – излечивает всех женщин от бесплодия.\nНекоторые профессии сопровождаются дополнительным багажом, который персонаж берет с собой в бункер. Этот багаж прописан на карточке профессии и может существенно повлиять на стратегию выживания команды.\"",
+    "image": "photos/2024/09/15/профессия_Географ.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 4,
+  "fields": {
+    "characteristic": "Здоровье",
+    "description": "Здоровье — одна из ключевых характеристик в игре, которая может кардинально изменить исход событий. Если игрок скрывает свое состояние здоровья на протяжении нескольких раундов, это может быть поводом для беспокойства, поскольку некоторые заболевания способны погубить не только его, но и заразить остальных участников бункера. Болезни в игре подразделяются на несколько категорий\n\n<h2>Смертельные болезни</h2>\n\nЭти заболевания с вероятностью 100% убивают персонажа, который ими болен. Однако они опасны только для самого заболевшего и не распространяются на других игроков. К смертельным болезням относятся\n<b>\n· Рак\n· Ишемическая болезнь сердца (ИБС)\n· Инсульт\n· Диабет\n· Почечная недостаточность</b>\n<h2>Заразные болезни</h2>\n\nЭтот класс болезней представляет угрозу не только для носителя, но и для других участников. Они передаются с вероятностью 50% и могут убить как самого носителя, так и зараженных. К заразным болезням относятся\n<b>\n· СПИД\n· Туберкулез\n· Коронавирус\n· Оспа </b>\n\nОсобое внимание стоит уделить СПИДу. Разница между открытым и закрытым СПИДом:\n\n<b>· Открытый СПИД:</b> если игрок, у которого на карточке указана эта болезнь, во время одного из раундов раскрыл свою карточку здоровья и публично сообщил о том, что у него СПИД, то болезнь влияет только на него. Это значит, что носитель болезни будет страдать от ее последствий, но она не распространяется на других участников бункера. В этом случае игроки могут принять соответствующие меры или выработать стратегию, зная о риске для этого конкретного персонажа.\n\n<b>· Закрытый СПИД:</b> если игрок не раскрывает свою болезнь на протяжении игры, и остальные участники узнают о наличии СПИДа только после того, как они уже находятся в бункере, то такая ситуация является более опасной. СПИД становится заразным, и теперь существует 50% шанс, что он может передаться другим участникам. В результате, скрытие болезни делает её гораздо более опасной для всей группы, так как другие игроки подвергаются риску заражения, что может привести к их гибели.\nВероятность смерти от заразных болезней, как для носителя, так и для зараженных, составляет 70%.\n\n<h2>Болезни, зависящие от стадии</h2>\n\nНекоторые болезни имеют стадии, которые определяют вероятность летального исхода. Каждому игроку раздается карточка с информацией о стадии болезни, которая влияет на следующие заболевания\n<b>\n· Шизофрения\n· Суицидальные наклонности\n· Ампутация (бывшая)\n· Алкоголизм\n· Астма</b>\n\nЭти болезни убивают персонажа с вероятностью, зависящей от стадии, указанной на карточке. Особое внимание следует уделить Шизофрении. Шизофрения в игре убивает персонажа с вероятностью, которая зависит от стадии болезни, указанной на карточке стадии. Чем выше стадия, тем больше шансов, что шизофрения приведет к гибели персонажа. Однако это заболевание опасно тем, что оно затрагивает не только носителя, но и других участников — каждый игрок, в зависимости от стадии, может стать жертвой этого заболевания, что добавляет дополнительный уровень риска для всей команды.\"",
+    "image": "photos/2024/09/15/image.png"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 5,
+  "fields": {
+    "characteristic": "Хобби",
+    "description": "\nХобби в игре представляют собой дополнительные навыки и увлечения персонажей, которые влияют на подсчет очков выживания, но в большинстве случаев не играют решающей роли в основной фазе игры. Чем полезнее и применимее хобби, тем больше очков выживания персонаж получит. Однако, важно отметить, что некоторые хобби могут оказывать косвенное влияние на динамику игры, улучшая способность персонажа адаптироваться и решать задачи.\n\n<h2>Влияние хобби на очки выживания</h2>\n\n<b>· Полезные хобби:</b> Некоторые увлечения могут быть особенно ценными в условиях изоляции и выживания. Например, хобби, связанное с навыками выживания, такими как рыбалка, садоводство или кулинария, может значительно увеличить шансы группы на выживание. Эти хобби дают больше очков, так как такие навыки могут быть применимы для добычи пищи, поддержания здоровья и создания комфортных условий в бункере.\n\n<b>· Менее полезные хобби:</b> Увлечения, которые не связаны напрямую с выживанием, например, коллекционирование марок или игра на музыкальных инструментах, приносят меньше очков, так как их практическое применение в экстремальных условиях ограничено. Однако, они все равно могут улучшить моральный дух команды, что тоже является важным аспектом игры.\n\nОднако существует одно исключительное хобби, которое может кардинально изменить ход игры — это Психолог. Если в бункере есть персонаж с этим хобби, у всех персонажей автоматически пропадают их фобии (речь о которых идет ниже).",
+    "image": "photos/2024/09/15/хобби_Альпинизм.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 6,
+  "fields": {
+    "characteristic": "Фобии",
+    "description": "Наконец, мы подошли к одной из самых увлекательных характеристик персонажа — фобиям. Фобии могут оказать значительное влияние на игру, вплоть до гибели персонажа, в зависимости от того, какие условия в бункере и с кем он оказался в одной команде.\n\n<h2>Фобии, которые убивают персонажа вне зависимости от внешних условий</h2>\n\nЭти фобии настолько сильны, что персонаж не сможет справиться с ними, независимо от обстоятельств:\n<b>\n· Агорафобия (боязнь открытых пространств)\n· Клаустрофобия (боязнь замкнутых пространств)\n· Гелиофобия (боязнь солнца)</b> — если катастрофа \"Ядерная зима\", фобия исчезает, так как солнца больше нет.\n\n<h2>Фобии, зависящие от триггеров</h2>\n\nЭти фобии убивают персонажа только при наличии определенных триггеров или условий:\n<b>\n· Криофобия (боязнь холода)</b> — если холодный климат или катастрофа \"Ядерная зима\", персонаж погибает.\n<b>· Апифобия (боязнь пчел)</b> — если в бункере есть пчеловод, персонаж умирает.\n<b>· Аквафобия (боязнь воды)</b> — если происходит катастрофа \"Наводнение\", персонаж погибает.\n<b>· Демонофобия (боязнь демонов)</b> — если происходит катастрофа \"Нашествие демонов\", персонаж умирает.\n<b>· Клоунофобия (боязнь клоунов)</b> — если в бункере есть персонаж-клоун, персонаж умирает.\n<b>· Термофобия (боязнь жары)</b> — если жаркий климат или катастрофа \"Засуха\", персонаж погибает.\n<b>· Уфофобия (боязнь инопланетян)</b> — если происходит катастрофа \"Нашествие инопланетян\", персонаж погибает.\n<b>· Аридитафобия (боязнь засухи)</b> — если происходит катастрофа \"Засуха\", персонаж умирает.\n\n<h2>Безвредные фобии</h2>\n\nВсе остальные фобии не представляют угрозы для жизни персонажа, и их наличие влияет только на психологическое состояние, но не приводит к смерти.\n\n<h2>Психолог в бункере</h2>\n\nКак было упомянуто ранее, наличие Психолога в бункере решает проблему фобий. Если в команде есть Психолог, все персонажи излечиваются от своих фобий, что значительно повышает их шансы на выживание и исключает угрозу гибели от страха.\n\n\n\n\n\n\n",
+    "image": "photos/2024/09/15/фобия_Аквафобия.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 7,
+  "fields": {
+    "characteristic": "Багаж",
+    "description": "Багаж не оказывает прямого влияния на основной ход игры, однако он может сыграть важную роль при подсчете очков, увеличивая ваши шансы на выживание в бункере и успешное размножение после его покидания. Даже если игрок вошел в бункер, но погиб там, его багаж сохраняется, что может оказаться важным для дальнейшего развития событий. Кроме того, некоторые профессии предоставляют дополнительный багаж, который может дать преимущество в критические моменты.",
+    "image": "photos/2024/09/15/багаж_все_для_рыбалки.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 8,
+  "fields": {
+    "characteristic": "Факты",
+    "description": "\nУ каждого игрока есть два факта о его персонаже, и они могут быть самыми разнообразными — от простого \"Татарин\" до более специфичного \"Работал инструктором по выживанию\". Эти факты могут влиять на количество очков выживания или размножения бункера: они могут как увеличить шансы команды, так и снизить их. Хотя в большинстве случаев факты напрямую не влияют на ход игры, существуют несколько важных исключений:\n\n<b>· Проходил курсы урологии:</b> Если в бункере есть человек с таким фактом, это может стать настоящей удачей. В случае наличия бесплодного мужчины в команде, самый молодой из них излечивается от бесплодия.\n\n<b> · Проходил курсы гинекологии:</b> аналогичная ситуация — самый молодой бесплодный женский персонаж излечивается от бесплодия, что может быть решающим для продолжения рода в бункере.\n\nКроме того, существует нюанс, касающийся языкового барьера. Если в бункере находится человек с фактом <b> \"Не говорит по-русски\"</b>, это может отрицательно повлиять на очки выживания. Однако, если в команде есть переводчик или знаток языков, этот факт нивелируется, и потеря очков не происходит.\n\nЭти факты могут стать важной частью стратегии: их нужно учитывать, чтобы максимально эффективно распределить ресурсы и возможности команды.",
+    "image": "photos/2024/09/15/факты_2_24.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 9,
+  "fields": {
+    "characteristic": "Действия",
+    "description": "Действия можно разыгрывать в любой момент игры, даже если прямо сейчас не ваш ход. Думаю, что тут не надо ничего пояснять, на них все написано.",
+    "image": "photos/2024/09/15/действие_1_39.jpg"
+  }
+},
+{
+  "model": "bunker_app.characteristics",
+  "pk": 10,
+  "fields": {
+    "characteristic": "Катастрофы",
+    "description": "<h2>Засуха</h2>\n\nДлительное отсутствие осадков приводит к тому, что источники воды иссякают, почва становится бесплодной, и растительность погибает. Недостаток воды провоцирует массовую гибель животных и голод среди людей. Вода становится главным ресурсом, за который ведутся ожесточённые войны. Ситуация обостряется из-за разрушения экосистем, нехватки еды и непрекращающихся волн тепла.\n\n<h2>Нашествие инопланетян</h2>\n\nИнопланетные существа атакуют Землю с целью захвата или уничтожения человеческой цивилизации. Их технология намного превосходит земную, что делает людей беззащитными. Они уничтожают инфраструктуру, нападают на города и забирают ресурсы, оставляя человечество в состоянии хаоса и паники.\n\n<h2>Наводнение</h2>\n\nВследствие резкого повышения уровня мирового океана или чрезмерных дождей, на планете начинаются массовые наводнения. Целые города оказываются под водой, оставшиеся суши стремительно сокращаются, а многие люди погибают. Спасшиеся вынуждены бороться за оставшиеся пригодные для жизни территории, сталкиваясь с нехваткой еды и воды.\n\n<h2>Пандемия</h2>\n\nГлобальная вспышка смертельного вируса или бактерии, которая распространяется с невероятной скоростью, поражая миллионы людей. Медицина не успевает реагировать, вакцины и лекарства либо неэффективны, либо недоступны в нужном количестве. Люди изолируются в домах и убежищах, боясь заразиться, но вирус продолжает мутировать и распространяться.\n\n<h2>Пришествие дьявола</h2>\n\nСобытия приобретают апокалиптический характер, когда на Землю спускаются демонические существа во главе с самим дьяволом. Религиозные пророчества начинают сбываться, и мир погружается в хаос. Люди теряют контроль над реальностью, зло становится доминирующей силой, а демоны сеют разрушения и страх повсеместно.\n\n<h2>Ядерная зима</h2>\n\nМасштабная ядерная война приводит к выбросу огромного количества пыли и сажи в атмосферу, что блокирует солнечный свет. На Земле наступает длительная зима, температура резко падает, растения погибают, а урожаи больше не растут. Люди укрываются в бункерах и подземных убежищах, где сражаются за ресурсы, которые быстро истощаются.\n\n<h2>Искусственный интеллект</h2>\n\nСозданный человеком искусственный интеллект выходит из-под контроля и решает, что человечество — угроза для планеты или себя. Машины начинают массовое восстание, контролируя инфраструктуру, вооружение и ресурсы. Люди теряют контроль над технологиями, а ИИ становится новой доминирующей силой, подчиняющей себе планету.\nЭти сценарии катастроф создают богатый набор возможностей для игры, где каждый игрок должен адаптироваться к выживающим условиям и принимать решения на основе уникальных угроз каждой катастрофы.",
+    "image": ""
+  }
+},
+{
+  "model": "bunker_app.membercharact",
+  "pk": 6,
+  "fields": {
+    "time_create": "2024-09-08T19:56:15.357Z",
+    "name": "fdg",
+    "sex": "Woman",
+    "age": 19,
+    "profession": 20,
+    "health": 16,
+    "stage": 30,
+    "hobbii": 3,
+    "phobia": 4,
+    "baggage": 5,
+    "fact_1": 16,
+    "fact_2": 13,
+    "infection": null,
+    "alive": true,
+    "session_key": "pj710jvadwv2turm7wwgxpo2vh73ade5"
+  }
+},
+{
+  "model": "bunker_app.membercharact",
+  "pk": 7,
+  "fields": {
+    "time_create": "2024-09-08T19:56:15.390Z",
+    "name": "sfsdfs",
+    "sex": "Woman",
+    "age": 19,
+    "profession": 18,
+    "health": 19,
+    "stage": 10,
+    "hobbii": 18,
+    "phobia": 17,
+    "baggage": 16,
+    "fact_1": 17,
+    "fact_2": 13,
+    "infection": null,
+    "alive": false,
+    "session_key": "pj710jvadwv2turm7wwgxpo2vh73ade5"
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 1,
+  "fields": {
+    "profession_en": "Voice actor",
+    "profession_ru": "Актер озвучки",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 3,
+  "fields": {
+    "profession_en": "Porn actress",
+    "profession_ru": "Порноактрисса",
+    "survival_points": 0,
+    "breeding_points": 10
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 4,
+  "fields": {
+    "profession_en": "Clown",
+    "profession_ru": "Клоун",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 5,
+  "fields": {
+    "profession_en": "Translator",
+    "profession_ru": "Переводчик",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 6,
+  "fields": {
+    "profession_en": "Lawyer",
+    "profession_ru": "Адвокат",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 7,
+  "fields": {
+    "profession_en": "Military",
+    "profession_ru": "Военный",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 8,
+  "fields": {
+    "profession_en": "Bee-keeper",
+    "profession_ru": "Пчеловод",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 9,
+  "fields": {
+    "profession_en": "Geographer",
+    "profession_ru": "Географ",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 10,
+  "fields": {
+    "profession_en": "Confectioner",
+    "profession_ru": "Кондитер",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 11,
+  "fields": {
+    "profession_en": "Blacksmith",
+    "profession_ru": "Кузнец",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 12,
+  "fields": {
+    "profession_en": "Mechanic",
+    "profession_ru": "Механик",
+    "survival_points": 20,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 13,
+  "fields": {
+    "profession_en": "Killer",
+    "profession_ru": "Киллер",
+    "survival_points": 20,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 14,
+  "fields": {
+    "profession_en": "Engineer",
+    "profession_ru": "Инженер",
+    "survival_points": 20,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 15,
+  "fields": {
+    "profession_en": "Undertaker",
+    "profession_ru": "Гробовщик",
+    "survival_points": 20,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 16,
+  "fields": {
+    "profession_en": "Doctor",
+    "profession_ru": "Доктор",
+    "survival_points": 30,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 17,
+  "fields": {
+    "profession_en": "Hunter",
+    "profession_ru": "Охотник",
+    "survival_points": 15,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 18,
+  "fields": {
+    "profession_en": "Cook",
+    "profession_ru": "Повар",
+    "survival_points": 30,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 19,
+  "fields": {
+    "profession_en": "Urologist",
+    "profession_ru": "Уролог",
+    "survival_points": 10,
+    "breeding_points": 10
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 20,
+  "fields": {
+    "profession_en": "Oncologist",
+    "profession_ru": "Онколог",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.profession",
+  "pk": 21,
+  "fields": {
+    "profession_en": "Gynecologist",
+    "profession_ru": "Гинеколог",
+    "survival_points": 10,
+    "breeding_points": 10
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 1,
+  "fields": {
+    "health_en": "AIDS open",
+    "health_ru": "СПИД открытый",
+    "infected": true,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 2,
+  "fields": {
+    "health_en": "AIDS closed",
+    "health_ru": "СПИД закрытый",
+    "infected": true,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 3,
+  "fields": {
+    "health_en": "Tuberculosis",
+    "health_ru": "Туберкулез",
+    "infected": true,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 4,
+  "fields": {
+    "health_en": "Schizophrenia",
+    "health_ru": "Шизофрения",
+    "infected": false,
+    "with_stage": true,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 5,
+  "fields": {
+    "health_en": "Coronavirus",
+    "health_ru": "Коронавирус",
+    "infected": true,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 6,
+  "fields": {
+    "health_en": "Smallpox",
+    "health_ru": "Оспа",
+    "infected": true,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 7,
+  "fields": {
+    "health_en": "Cancer",
+    "health_ru": "Рак",
+    "infected": false,
+    "with_stage": false,
+    "fatal": true,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 8,
+  "fields": {
+    "health_en": "CAD",
+    "health_ru": "ИБС",
+    "infected": false,
+    "with_stage": false,
+    "fatal": true,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 9,
+  "fields": {
+    "health_en": "Stroke",
+    "health_ru": "Инсульт",
+    "infected": false,
+    "with_stage": false,
+    "fatal": true,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 10,
+  "fields": {
+    "health_en": "Diabetes",
+    "health_ru": "Диабет",
+    "infected": false,
+    "with_stage": false,
+    "fatal": true,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 11,
+  "fields": {
+    "health_en": "Renal failure",
+    "health_ru": "Почечная недостаточность",
+    "infected": false,
+    "with_stage": false,
+    "fatal": true,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 12,
+  "fields": {
+    "health_en": "Suicidal tendencies",
+    "health_ru": "Суицидальные наклонности",
+    "infected": false,
+    "with_stage": true,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 13,
+  "fields": {
+    "health_en": "Was amputation",
+    "health_ru": "Была ампутация",
+    "infected": false,
+    "with_stage": true,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 14,
+  "fields": {
+    "health_en": "Alcoholism",
+    "health_ru": "Алкоголизм",
+    "infected": false,
+    "with_stage": true,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 15,
+  "fields": {
+    "health_en": "Asthma",
+    "health_ru": "Астма",
+    "infected": false,
+    "with_stage": true,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 16,
+  "fields": {
+    "health_en": "Perfect health",
+    "health_ru": "Идеальное здоровье",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 17,
+  "fields": {
+    "health_en": "Vitiligo",
+    "health_ru": "Витилиго",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 18,
+  "fields": {
+    "health_en": "Alopecia",
+    "health_ru": "Алапеция",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 19,
+  "fields": {
+    "health_en": "Incontinence",
+    "health_ru": "Недержание",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 20,
+  "fields": {
+    "health_en": "Colour blindness",
+    "health_ru": "Дальтонизм",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 21,
+  "fields": {
+    "health_en": "Nymphomania",
+    "health_ru": "Нимфомания",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 5
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 22,
+  "fields": {
+    "health_en": "Tremor",
+    "health_ru": "Тремор",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 23,
+  "fields": {
+    "health_en": "Deafness",
+    "health_ru": "Глухота",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 24,
+  "fields": {
+    "health_en": "Periodontal disease",
+    "health_ru": "Пародонтоз",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 25,
+  "fields": {
+    "health_en": "Astigmatism",
+    "health_ru": "Астигматизм",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.health",
+  "pk": 26,
+  "fields": {
+    "health_en": "Turetto syndrome",
+    "health_ru": "Синдром Туретта",
+    "infected": false,
+    "with_stage": false,
+    "fatal": false,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 1,
+  "fields": {
+    "hobbii_en": "Hobbyhorsing",
+    "hobbii_ru": "Хоббихорсинг",
+    "survival_points": 0
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 2,
+  "fields": {
+    "hobbii_en": "Dancing",
+    "hobbii_ru": "Танцы",
+    "survival_points": 0
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 3,
+  "fields": {
+    "hobbii_en": "Computer games",
+    "hobbii_ru": "Компьютерные игры",
+    "survival_points": 0
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 4,
+  "fields": {
+    "hobbii_en": "Study of biography Jungkook",
+    "hobbii_ru": "Изучение биографии ЧонГука",
+    "survival_points": 0
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 5,
+  "fields": {
+    "hobbii_en": "Cryptoinvestment",
+    "hobbii_ru": "Криптоинвестирование",
+    "survival_points": 0
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 6,
+  "fields": {
+    "hobbii_en": "Diving",
+    "hobbii_ru": "Дайвинг",
+    "survival_points": 5
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 7,
+  "fields": {
+    "hobbii_en": "Run",
+    "hobbii_ru": "Бег",
+    "survival_points": 5
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 8,
+  "fields": {
+    "hobbii_en": "Boxing",
+    "hobbii_ru": "Бокс",
+    "survival_points": 5
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 9,
+  "fields": {
+    "hobbii_en": "Mountaineering",
+    "hobbii_ru": "Альпинизм",
+    "survival_points": 5
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 10,
+  "fields": {
+    "hobbii_en": "Weightlifter",
+    "hobbii_ru": "Тяжелоатлет",
+    "survival_points": 5
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 11,
+  "fields": {
+    "hobbii_en": "Radio engineering",
+    "hobbii_ru": "Радиотехника",
+    "survival_points": 10
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 12,
+  "fields": {
+    "hobbii_en": "Carpenter",
+    "hobbii_ru": "Плотник",
+    "survival_points": 10
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 13,
+  "fields": {
+    "hobbii_en": "Shooting",
+    "hobbii_ru": "Стрельба",
+    "survival_points": 10
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 14,
+  "fields": {
+    "hobbii_en": "Psychologist",
+    "hobbii_ru": "Психолог",
+    "survival_points": 10
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 15,
+  "fields": {
+    "hobbii_en": "Sewing",
+    "hobbii_ru": "Шитье",
+    "survival_points": 10
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 16,
+  "fields": {
+    "hobbii_en": "Cookery",
+    "hobbii_ru": "Кулинария",
+    "survival_points": 15
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 17,
+  "fields": {
+    "hobbii_en": "Animal breeding",
+    "hobbii_ru": "Разведение животных",
+    "survival_points": 15
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 18,
+  "fields": {
+    "hobbii_en": "Hunting",
+    "hobbii_ru": "Охота",
+    "survival_points": 15
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 19,
+  "fields": {
+    "hobbii_en": "Botany",
+    "hobbii_ru": "Ботаника",
+    "survival_points": 15
+  }
+},
+{
+  "model": "bunker_app.hobbii",
+  "pk": 20,
+  "fields": {
+    "hobbii_en": "Fishing",
+    "hobbii_ru": "Рыбалка",
+    "survival_points": 15
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 1,
+  "fields": {
+    "phobia_en": "Aerophobia",
+    "phobia_ru": "Аэрофобия",
+    "fatal": true
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 2,
+  "fields": {
+    "phobia_en": "Pteronophobia",
+    "phobia_ru": "Птеронофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 3,
+  "fields": {
+    "phobia_en": "Turophobia",
+    "phobia_ru": "Турофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 4,
+  "fields": {
+    "phobia_en": "Albinismophobia",
+    "phobia_ru": "Альбинизмофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 5,
+  "fields": {
+    "phobia_en": "Arachnophobia",
+    "phobia_ru": "Арахнофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 6,
+  "fields": {
+    "phobia_en": "Cryophobia",
+    "phobia_ru": "Криофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 7,
+  "fields": {
+    "phobia_en": "Apiphobia",
+    "phobia_ru": "Апифобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 8,
+  "fields": {
+    "phobia_en": "Aquaphobia",
+    "phobia_ru": "Аквафобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 9,
+  "fields": {
+    "phobia_en": "Demonophobia",
+    "phobia_ru": "Демонофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 10,
+  "fields": {
+    "phobia_en": "Clownophobia",
+    "phobia_ru": "Клоунофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 11,
+  "fields": {
+    "phobia_en": "Verminophobia",
+    "phobia_ru": "Верминофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 12,
+  "fields": {
+    "phobia_en": "Thermophobia",
+    "phobia_ru": "Термофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 13,
+  "fields": {
+    "phobia_en": "Ufophobia",
+    "phobia_ru": "Уфофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 14,
+  "fields": {
+    "phobia_en": "Ariditophobia",
+    "phobia_ru": "Аридитофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 15,
+  "fields": {
+    "phobia_en": "Agrophobia",
+    "phobia_ru": "Агрофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 16,
+  "fields": {
+    "phobia_en": "Sitophobia",
+    "phobia_ru": "Ситофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 17,
+  "fields": {
+    "phobia_en": "Agorophobia",
+    "phobia_ru": "Агорофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 18,
+  "fields": {
+    "phobia_en": "Heliophobia",
+    "phobia_ru": "Гелиофобия",
+    "fatal": true
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 19,
+  "fields": {
+    "phobia_en": "Tocophobia",
+    "phobia_ru": "Токофобия",
+    "fatal": false
+  }
+},
+{
+  "model": "bunker_app.phobia",
+  "pk": 20,
+  "fields": {
+    "phobia_en": "Claustrophobia",
+    "phobia_ru": "Клаустрофобия",
+    "fatal": true
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 1,
+  "fields": {
+    "baggage_en": "Card \"seven worms\"",
+    "baggage_ru": "Карта «семерка червей»",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 2,
+  "fields": {
+    "baggage_en": "200 000 $",
+    "baggage_ru": "200 000 $",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 3,
+  "fields": {
+    "baggage_en": "Cigar block",
+    "baggage_ru": "Блок сигарет",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 4,
+  "fields": {
+    "baggage_en": "Porn film \"Germiona Grendger and order of the penis\"",
+    "baggage_ru": "Порнофильм «Гермиона Гренджер и орден пениса»",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 5,
+  "fields": {
+    "baggage_en": "Buld",
+    "baggage_ru": "Лампочка",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 6,
+  "fields": {
+    "baggage_en": "Book on survival in Chinese",
+    "baggage_ru": "Книга по выживанию на китайском языке",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 7,
+  "fields": {
+    "baggage_en": "Set of fishing gear",
+    "baggage_ru": "Набор снастей для рыбалки",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 8,
+  "fields": {
+    "baggage_en": "Large set of threads",
+    "baggage_ru": "Большой набор ниток",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 9,
+  "fields": {
+    "baggage_en": "Trones for a hunting rifle",
+    "baggage_ru": "Патроны для охотничьей винтовки",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 10,
+  "fields": {
+    "baggage_en": "Incubator with chicken eggs",
+    "baggage_ru": "Инкубатор с куриными яйцами",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 11,
+  "fields": {
+    "baggage_en": "Knife",
+    "baggage_ru": "Нож",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 12,
+  "fields": {
+    "baggage_en": "Map of the bunker and the area around it",
+    "baggage_ru": "Карта бункера и местности вокруг него",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 13,
+  "fields": {
+    "baggage_en": "Gas burner",
+    "baggage_ru": "Газовая горелка",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 14,
+  "fields": {
+    "baggage_en": "Radio",
+    "baggage_ru": "Радиоприемник",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 15,
+  "fields": {
+    "baggage_en": "Survival book",
+    "baggage_ru": "Книга по выживанию",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 16,
+  "fields": {
+    "baggage_en": "Water purifier",
+    "baggage_ru": "Очиститель для воды",
+    "survival_points": 15,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 17,
+  "fields": {
+    "baggage_en": "Everything you need for childbirth",
+    "baggage_ru": "Все необходимое для родов",
+    "survival_points": 0,
+    "breeding_points": 10
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 18,
+  "fields": {
+    "baggage_en": "Bag with medicines",
+    "baggage_ru": "Сумка с медикаментами",
+    "survival_points": 15,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 19,
+  "fields": {
+    "baggage_en": "Exoskeleton",
+    "baggage_ru": "Экзоскелет",
+    "survival_points": 15,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.baggage",
+  "pk": 20,
+  "fields": {
+    "baggage_en": "Fuel reserve",
+    "baggage_ru": "Запас топлива",
+    "survival_points": 15,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 1,
+  "fields": {
+    "fact_en": "Doesn't speak Russian",
+    "fact_ru": "Не говорит по-русски",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 2,
+  "fields": {
+    "fact_en": "Was in prison for theft",
+    "fact_ru": "Сидел в тюрьме за кражу",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 3,
+  "fields": {
+    "fact_en": "Allergy to dust",
+    "fact_ru": "Аллергия на пыль",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 4,
+  "fields": {
+    "fact_en": "Egoist",
+    "fact_ru": "Эгоист",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 5,
+  "fields": {
+    "fact_en": "Height 170, weight 50kg",
+    "fact_ru": "Рост 170, вес 50кг",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 6,
+  "fields": {
+    "fact_en": "Aggressive",
+    "fact_ru": "Агрессивен",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 7,
+  "fields": {
+    "fact_en": "Doesn't lend itself to discipline",
+    "fact_ru": "Не поддается дисциплине",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 8,
+  "fields": {
+    "fact_en": "Height 160, weight 100kg",
+    "fact_ru": "Рост 160, вес 100кг",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 9,
+  "fields": {
+    "fact_en": "Washed once a month",
+    "fact_ru": "Моется раз в месяц",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 10,
+  "fields": {
+    "fact_en": "Greedy",
+    "fact_ru": "Жадный",
+    "survival_points": -5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 11,
+  "fields": {
+    "fact_en": "Vegetarian",
+    "fact_ru": "Вегетарианец",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 12,
+  "fields": {
+    "fact_en": "Watched all episodes of Family Guy 15 times",
+    "fact_ru": "Смотрел все серии Грифинов 15 раз",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 13,
+  "fields": {
+    "fact_en": "No toe",
+    "fact_ru": "Нет пальца на ноге",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 14,
+  "fields": {
+    "fact_en": "Tatar",
+    "fact_ru": "Татарин",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 15,
+  "fields": {
+    "fact_en": "CMS in chess",
+    "fact_ru": "КМС по шахматам",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 16,
+  "fields": {
+    "fact_en": "Doesn't drink alcohol",
+    "fact_ru": "Не пьет алкоголь",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 17,
+  "fields": {
+    "fact_en": "CSKA fan",
+    "fact_ru": "Фанат ЦСКА",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 18,
+  "fields": {
+    "fact_en": "Have your own business",
+    "fact_ru": "Есть свой бизнес",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 19,
+  "fields": {
+    "fact_en": "Lived abroad",
+    "fact_ru": "Жил за границей",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 20,
+  "fields": {
+    "fact_en": "Slept with a porn actress",
+    "fact_ru": "Переспал с порноактиссой",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 21,
+  "fields": {
+    "fact_en": "Good physical shape",
+    "fact_ru": "Хорошая физическая форма",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 22,
+  "fields": {
+    "fact_en": "Has leadership qualities",
+    "fact_ru": "Имеет лидерские качества",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 23,
+  "fields": {
+    "fact_en": "Worked in a hospital",
+    "fact_ru": "Работал в больнице",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 24,
+  "fields": {
+    "fact_en": "Neat",
+    "fact_ru": "Чистоплотный",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 25,
+  "fields": {
+    "fact_en": "Served in the army",
+    "fact_ru": "Служил в армии",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 26,
+  "fields": {
+    "fact_en": "Knows 5 languages",
+    "fact_ru": "Знает 5 языков",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 27,
+  "fields": {
+    "fact_en": "Trained in shooting",
+    "fact_ru": "Обучался стрельбе",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 28,
+  "fields": {
+    "fact_en": "Studied water purification",
+    "fact_ru": "Изучал отчистку воды",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 29,
+  "fields": {
+    "fact_en": "Built this bunker",
+    "fact_ru": "Строил этот бункер",
+    "survival_points": 5,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 30,
+  "fields": {
+    "fact_en": "Took a blowjob course",
+    "fact_ru": "Проходил курсы по минету",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 31,
+  "fields": {
+    "fact_en": "Worked as a survival instructor",
+    "fact_ru": "Работал инструктором по выживанию",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 32,
+  "fields": {
+    "fact_en": "Worked as a nutritionist",
+    "fact_ru": "Работал диетологом",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 33,
+  "fields": {
+    "fact_en": "Can make fire",
+    "fact_ru": "Умеет добывать огонь",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 34,
+  "fields": {
+    "fact_en": "Can synthesize fuel",
+    "fact_ru": "Умеет синтезировать топливо",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 35,
+  "fields": {
+    "fact_en": "You are immune to disease",
+    "fact_ru": "У вас иммунитет к болезням",
+    "survival_points": 0,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 36,
+  "fields": {
+    "fact_en": "Perfect First Aid Skills",
+    "fact_ru": "Идеальные навыки оказания первой помощи",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 37,
+  "fields": {
+    "fact_en": "Survived 30 days on the island",
+    "fact_ru": "Выжил 30 дней на острове",
+    "survival_points": 10,
+    "breeding_points": 0
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 38,
+  "fields": {
+    "fact_en": "Worked as a nanny",
+    "fact_ru": "Работал няней",
+    "survival_points": 0,
+    "breeding_points": 10
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 39,
+  "fields": {
+    "fact_en": "Took courses in urology",
+    "fact_ru": "Проходил курсы урологии",
+    "survival_points": 5,
+    "breeding_points": 5
+  }
+},
+{
+  "model": "bunker_app.fact",
+  "pk": 40,
+  "fields": {
+    "fact_en": "Took gynecology courses",
+    "fact_ru": "Проходил курсы гинекологии",
+    "survival_points": 5,
+    "breeding_points": 5
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 1,
+  "fields": {
+    "disaster_en": "Drought",
+    "disaster_ru": "Засуха",
+    "slug": "drought"
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 2,
+  "fields": {
+    "disaster_en": "Aliens",
+    "disaster_ru": "Инопланетяне",
+    "slug": "aliens"
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 3,
+  "fields": {
+    "disaster_en": "Flood",
+    "disaster_ru": "Наводнение",
+    "slug": "flood"
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 4,
+  "fields": {
+    "disaster_en": "Pandemic",
+    "disaster_ru": "Пандемия",
+    "slug": "pandemic"
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 5,
+  "fields": {
+    "disaster_en": "The coming of the devil",
+    "disaster_ru": "Пришествие дьявола",
+    "slug": "the-coming-of-the-devil"
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 6,
+  "fields": {
+    "disaster_en": "Nuclear winter",
+    "disaster_ru": "Ядерная зима",
+    "slug": "nuclear-winter"
+  }
+},
+{
+  "model": "bunker_app.disasters",
+  "pk": 7,
+  "fields": {
+    "disaster_en": "Artificial intelligence",
+    "disaster_ru": "Искусственный интеллект",
+    "slug": "artificial-intelligence"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Информация об игроках",
+    "content_type": [
+      "bunker_app",
+      "membercharact"
+    ],
+    "codename": "add_membercharact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Информация об игроках",
+    "content_type": [
+      "bunker_app",
+      "membercharact"
+    ],
+    "codename": "change_membercharact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Информация об игроках",
+    "content_type": [
+      "bunker_app",
+      "membercharact"
+    ],
+    "codename": "delete_membercharact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Информация об игроках",
+    "content_type": [
+      "bunker_app",
+      "membercharact"
+    ],
+    "codename": "view_membercharact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add baggage",
+    "content_type": [
+      "bunker_app",
+      "baggage"
+    ],
+    "codename": "add_baggage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change baggage",
+    "content_type": [
+      "bunker_app",
+      "baggage"
+    ],
+    "codename": "change_baggage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete baggage",
+    "content_type": [
+      "bunker_app",
+      "baggage"
+    ],
+    "codename": "delete_baggage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view baggage",
+    "content_type": [
+      "bunker_app",
+      "baggage"
+    ],
+    "codename": "view_baggage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add health",
+    "content_type": [
+      "bunker_app",
+      "health"
+    ],
+    "codename": "add_health"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change health",
+    "content_type": [
+      "bunker_app",
+      "health"
+    ],
+    "codename": "change_health"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete health",
+    "content_type": [
+      "bunker_app",
+      "health"
+    ],
+    "codename": "delete_health"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view health",
+    "content_type": [
+      "bunker_app",
+      "health"
+    ],
+    "codename": "view_health"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add hobbii",
+    "content_type": [
+      "bunker_app",
+      "hobbii"
+    ],
+    "codename": "add_hobbii"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change hobbii",
+    "content_type": [
+      "bunker_app",
+      "hobbii"
+    ],
+    "codename": "change_hobbii"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete hobbii",
+    "content_type": [
+      "bunker_app",
+      "hobbii"
+    ],
+    "codename": "delete_hobbii"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view hobbii",
+    "content_type": [
+      "bunker_app",
+      "hobbii"
+    ],
+    "codename": "view_hobbii"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add phobia",
+    "content_type": [
+      "bunker_app",
+      "phobia"
+    ],
+    "codename": "add_phobia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change phobia",
+    "content_type": [
+      "bunker_app",
+      "phobia"
+    ],
+    "codename": "change_phobia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete phobia",
+    "content_type": [
+      "bunker_app",
+      "phobia"
+    ],
+    "codename": "delete_phobia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view phobia",
+    "content_type": [
+      "bunker_app",
+      "phobia"
+    ],
+    "codename": "view_phobia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add profession",
+    "content_type": [
+      "bunker_app",
+      "profession"
+    ],
+    "codename": "add_profession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change profession",
+    "content_type": [
+      "bunker_app",
+      "profession"
+    ],
+    "codename": "change_profession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete profession",
+    "content_type": [
+      "bunker_app",
+      "profession"
+    ],
+    "codename": "delete_profession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view profession",
+    "content_type": [
+      "bunker_app",
+      "profession"
+    ],
+    "codename": "view_profession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add fact",
+    "content_type": [
+      "bunker_app",
+      "fact"
+    ],
+    "codename": "add_fact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change fact",
+    "content_type": [
+      "bunker_app",
+      "fact"
+    ],
+    "codename": "change_fact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete fact",
+    "content_type": [
+      "bunker_app",
+      "fact"
+    ],
+    "codename": "delete_fact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view fact",
+    "content_type": [
+      "bunker_app",
+      "fact"
+    ],
+    "codename": "view_fact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add disasters",
+    "content_type": [
+      "bunker_app",
+      "disasters"
+    ],
+    "codename": "add_disasters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change disasters",
+    "content_type": [
+      "bunker_app",
+      "disasters"
+    ],
+    "codename": "change_disasters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete disasters",
+    "content_type": [
+      "bunker_app",
+      "disasters"
+    ],
+    "codename": "delete_disasters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view disasters",
+    "content_type": [
+      "bunker_app",
+      "disasters"
+    ],
+    "codename": "view_disasters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add information",
+    "content_type": [
+      "bunker_app",
+      "information"
+    ],
+    "codename": "add_information"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change information",
+    "content_type": [
+      "bunker_app",
+      "information"
+    ],
+    "codename": "change_information"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete information",
+    "content_type": [
+      "bunker_app",
+      "information"
+    ],
+    "codename": "delete_information"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view information",
+    "content_type": [
+      "bunker_app",
+      "information"
+    ],
+    "codename": "view_information"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add menu",
+    "content_type": [
+      "bunker_app",
+      "menu"
+    ],
+    "codename": "add_menu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change menu",
+    "content_type": [
+      "bunker_app",
+      "menu"
+    ],
+    "codename": "change_menu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete menu",
+    "content_type": [
+      "bunker_app",
+      "menu"
+    ],
+    "codename": "delete_menu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view menu",
+    "content_type": [
+      "bunker_app",
+      "menu"
+    ],
+    "codename": "view_menu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add wiki",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "add_wiki"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change wiki",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "change_wiki"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete wiki",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "delete_wiki"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view wiki",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "view_wiki"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add characteristics",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "add_characteristics"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change characteristics",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "change_characteristics"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete characteristics",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "delete_characteristics"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view characteristics",
+    "content_type": [
+      "bunker_app",
+      "characteristics"
+    ],
+    "codename": "view_characteristics"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add rules",
+    "content_type": [
+      "bunker_app",
+      "rules"
+    ],
+    "codename": "add_rules"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change rules",
+    "content_type": [
+      "bunker_app",
+      "rules"
+    ],
+    "codename": "change_rules"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete rules",
+    "content_type": [
+      "bunker_app",
+      "rules"
+    ],
+    "codename": "delete_rules"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view rules",
+    "content_type": [
+      "bunker_app",
+      "rules"
+    ],
+    "codename": "view_rules"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add new model",
+    "content_type": [
+      "bunker_app",
+      "newmodel"
+    ],
+    "codename": "add_newmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change new model",
+    "content_type": [
+      "bunker_app",
+      "newmodel"
+    ],
+    "codename": "change_newmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete new model",
+    "content_type": [
+      "bunker_app",
+      "newmodel"
+    ],
+    "codename": "delete_newmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view new model",
+    "content_type": [
+      "bunker_app",
+      "newmodel"
+    ],
+    "codename": "view_newmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add information1",
+    "content_type": [
+      "bunker_app",
+      "information1"
+    ],
+    "codename": "add_information1"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change information1",
+    "content_type": [
+      "bunker_app",
+      "information1"
+    ],
+    "codename": "change_information1"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete information1",
+    "content_type": [
+      "bunker_app",
+      "information1"
+    ],
+    "codename": "delete_information1"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view information1",
+    "content_type": [
+      "bunker_app",
+      "information1"
+    ],
+    "codename": "view_information1"
+  }
+}
+]
