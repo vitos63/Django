@@ -1,1 +1,3 @@
 djvenv/
+.env
+.vscode/

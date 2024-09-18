@@ -9,8 +9,8 @@ from datetime import datetime
 from django.http import HttpResponse, HttpRequest, HttpResponseNotFound
 from django.template.loader import render_to_string
 from .models import Women, Category, TagPost
-from .forms import AddPostForm, UploadFileForm
-from django.views.generic import DetailView, ListView, CreateView
+from .forms import AddPostForm, ContactForm
+from django.views.generic import DetailView, ListView, CreateView, FormView
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -19,7 +19,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 menu = [{'title': 'О сайте', 'url_name': 'about'},
         {'title': 'Добавить статью', 'url_name': 'add_page'},
         {'title': 'Обратная связь', 'url_name': 'contact'},
-        {'title': 'Войти', 'url_name': 'login'},
+        {'title': 'Войти', 'url_name': 'users:login'},
         ]
 
 
@@ -40,6 +40,9 @@ def handle_uploaded_file(file):
         for chunk in file.chunks():
             des.write(chunk)
 
+
+
+
 @login_required()
 def about(request):
     post = Women.published.all()
@@ -51,7 +54,7 @@ def about(request):
         'title': 'О сайте',
         'page': page
             }
-    return render(request, 'women_app/about.html', context= data)
+    return render(request, 'women_app/about.html', context = data)
 
 class ShowPost(DataMixin,DetailView):
     template_name = 'women_app/post.html'
@@ -79,12 +82,21 @@ class AddPage(LoginRequiredMixin, DataMixin, CreateView):
         return super().form_valid(form)
 
 
-def login(request):
-    return HttpResponse('Авторизация')
+class ContactFormView(DataMixin, FormView):
+    form_class = ContactForm
+    template_name = 'women_app/contact.html'
+    success_url = reverse_lazy('home')
+    title_page = 'Обратная связь'
 
+    def get_form_kwargs(self):
+        kwargs =  super().get_form_kwargs()
+        kwargs['user'] = self.request.user
+        return kwargs
+    
+    def form_valid(self,form):
+        print(form.cleaned_data)
+        return super().form_valid(form)
 
-def contact(request):
-    return HttpResponse('Обратная связь')
 
 
 class ShowCategories(DataMixin, ListView):

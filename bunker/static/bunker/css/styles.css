@@ -1,25 +1,164 @@
-/* Общие стили для всего сайта */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('./bunker.jpg') no-repeat center center fixed;
+    background: url('./bunker1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
 
-/* Стили для главной страницы */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #9541aa;
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    color: #fff;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+#unique-paragraph {
+    color: #9541aa;
+}
+
+.info-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    margin: 20px 0;
+    max-width: 70%;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-container p {
+    text-align: left;
+}
+
+.characteristic-image {
+    float: right;
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.navigation-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: fixed;
+    left: 20px;
+    top: 80px;
+    margin: 20px 0;
+    max-width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-container li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.main-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .container {
+    border-radius: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav {
+    flex-grow: 1;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 50px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: left;
+
 }
 
 label {
@@ -33,15 +172,6 @@ input {
     margin-bottom: 10px;
     border: none;
     border-radius: 4px;
-}
-.btn{
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 4px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
 }
 
 button {
@@ -58,7 +188,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Специфичные стили для страницы с игроками */
 .players-container {
     display: flex;
     flex-wrap: wrap;
@@ -71,12 +200,34 @@ button:hover {
     margin: 0 auto;
 }
 
-.player-block {
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.forms-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.form-item {
+    flex: 1 1 50%px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.player-block { 
     display: inline-block;
     background: rgba(0, 0, 0, 0.8);
     padding: 15px;
     border-radius: 8px;
-    width: calc(33% - 20px); /* Ширина блока с учетом отступов */
+    width: 100%;
+    flex-wrap: wrap; 
     box-sizing: border-box;
     color: white;
     text-align: left;
@@ -95,6 +246,48 @@ button:hover {
     border-radius: 4px;
 }
 
+.log-block { 
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+}
+
+
+/* .count-block {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; 
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-block label {
+    display: block;
+    margin: 5px 0;
+}
+
+.count-block select {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+} */
+
+
 .calculate-container {
     display: flex;
     justify-content: center;
@@ -102,10 +295,51 @@ button:hover {
 }
 
 .log-container {
-    background-color: rgba(0, 0, 0, 0.7); /* полупрозрачный черный фон для текста */
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 20px;
     border-radius: 10px;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     max-width: 600px;
+    margin-left: 30%;
+    margin-top: 40px;
+
+}
+
+.log-container select {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.log-container label {
+    display: block;
+    margin: 5px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.image-box {
+    text-align: center;
+    margin: 0 10px;
 }

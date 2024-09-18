@@ -1,5 +1,6 @@
 from typing import Any
 from django import forms
+import datetime
 from django.core.exceptions import ValidationError
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import get_user_model
@@ -35,11 +36,13 @@ class RegisterCreateUser(UserCreationForm):
 
 class ProfileUser(forms.ModelForm):
     username = forms.CharField(disabled=True, label='Логин', widget=forms.TextInput(attrs={'class':'form-input'}))
-    email = forms.CharField(disabled=True, label='E-mail', widget=forms.TextInput(attrs={'class':'form-input'}))
+    email = forms.CharField(disabled=True, required=False, label='E-mail', widget=forms.TextInput(attrs={'class':'form-input'}))
+    this_year = datetime.date.today().year
+    date_birth = forms.DateField(label='Дата рождения', widget=forms.SelectDateWidget(years=tuple(range(this_year-100, this_year-5))))
 
     class Meta:
         model = get_user_model()
-        fields = ['username', 'email', 'first_name', 'last_name']
+        fields = ['photo', 'username', 'email', 'first_name', 'last_name', 'date_birth']
         labels = {
             'first_name':'Имя',
             'last_name':'Фамилия',

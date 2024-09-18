@@ -1,12 +1,32 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Бункер</title>
-        <link type="text/css" href="{% static 'bunker/css/styles.css' %}" rel="stylesheet" />
-    </head>
-{% block content %}
-{% endblock %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'bunker/main.ico' %}" type="image/x-icon"/>
+    <title>{{title}}</title>
+    <link type="text/css" href="{% static 'bunker/css/styles.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+      <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul>
+                    <a href="{% url 'home' %}">
+                        <img src="{% static 'bunker/logo.png' %}" width="60" height="60">
+                    </a>
+                    {% for m in menu %}
+                    <li><a href="{% url m.url_name %}" class="current">{{m.name}}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+
 </html>

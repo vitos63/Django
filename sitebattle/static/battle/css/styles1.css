@@ -5,7 +5,7 @@
 
 body {
     font-family: 'CustomFont', sans-serif;
-    background: url('../images/chalkboard.jpg') no-repeat center center;
+    background: url('../../../media/chalkboard.jpg') no-repeat center center;
     background-attachment: fixed;
     color: #ecf0f1;
     margin: 0;

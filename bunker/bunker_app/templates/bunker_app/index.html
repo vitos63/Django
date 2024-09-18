@@ -1,13 +1,10 @@
-{% extends 'base.html' %}
-{% block content %}
-<div>
-    <form class="player-block" method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
-        <div> {{ form.non_field_errors }}</div>
 
-        <h1 for="{{ form.id_for_label }}"> {{ form.label }}</h1>{{ form }}
-        <div> {{ f.errors }}</div>
-        <p><button>Отправить </button></p>
-    </form>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<img src="{% static '/bunker/index.jpg' %}" width="100%" height="900">
+<div class="main-container">
+    <h1>{{ object_list.name }}</h1>
+    <h2>{{ object_list.info|linebreaks }}</h2> 
 </div>
 {% endblock %}

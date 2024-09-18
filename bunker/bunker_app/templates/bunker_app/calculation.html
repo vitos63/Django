@@ -5,20 +5,30 @@
     {% for i in logs %}
     <p>{{ i }}</p>
     {% endfor %}
-    <h2 class="player-block">Выжили:</h2>
+    <h2 class="log-block">Выжили:</h2>
+    {% if members_alive %}
     {% for f in members_alive %}
-    <p class="player-block">{{f.name}}</p>
+    <p class="log-block">{{f.name}}</p>
     {% endfor %}
-    <h2 class="player-block">Погибли:</h2>
+    {% else %}
+    <p class="log-block"> Никто не выжил</p>
+    {% endif %}
+    <p></p>
+    <h2 class="log-block">Погибли:</h2>
+    {% if members_dead %}
     {% for f in members_dead %}
-    <p class="player-block"> {{f.name}}</p>
+    <p class="log-block"> {{f.name}}</p>
     {% endfor %}
+    {% else %}
+    <p class="log-block"> Никто не погиб</p>
+    {% endif %}
     <p>{{survival_points}} очков выживания</p>
     <p>{{breeding_points}} очков размножения</p>
     <p>{{ chance_survive }}</p>
     <p>{{ bunker_alive }}</p>
     <p>{{ chance_breed }}</p>
     <p>{{ bunker_breed }}</p>
+    <button><a href="{% url 'count' %}">Новый рассчет</a></button>
 </div>
-<p><a href="{% url 'home' %}" class="btn">Новый рассчет</a></p>
+
 {% endblock %}
