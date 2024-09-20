@@ -69,25 +69,25 @@ class Calculation():
             self.members.filter(phobia__phobia_ru='Гелиофобия').update(phobia=None)
             self.logs.append(f'Гелиофобия больше не смертельна, потому что катастрофа {self.disaster}')
         
-        if self.disaster=='Наводнение':
+        elif self.disaster=='Наводнение':
             aquaphobia = self.members.filter(phobia__phobia_ru='Аквафобия')
             for i in aquaphobia:
                 self.logs.append(f'Игрок {i.name} умирает от Аквафобии, потому что катастрофа {self.disaster}')
             aquaphobia.update(alive=False)
         
-        if self.disaster=='Пришествие дьявола':
+        elif self.disaster=='Пришествие дьявола':
             devilphobia = self.members.filter(phobia__phobia_ru='Демонофобия')
             for i in devilphobia:
                 self.logs.append(f'Игрок {i.name} умирает от Демонофобии, потому что катастрофа {self.disaster}')
             devilphobia.update(alive=False)
         
-        if self.disaster=='Засуха':
+        elif self.disaster=='Засуха':
             termo_aridito_phobia =self.members.filter(Q(phobia__phobia_ru='Термофобия') | Q(phobia__phobia_ru='Аридитафобия'))
             for i in termo_aridito_phobia:
                 self.logs.append(f'Игрок {i.name} умирает от {i.phobia.phobia_ru}, потому что катастрофа {self.disaster}')
             termo_aridito_phobia.update(alive=False)
         
-        if self.disaster=='Инопланетяне':
+        elif self.disaster=='Инопланетяне':
             ufophobia = self.members.filter(phobia__phobia_ru='Уфофобия')
             for i in ufophobia:
                 self.logs.append(f'Игрок {i.name} умирает от Уфофобии, потому что катастрофа {self.disaster}')
